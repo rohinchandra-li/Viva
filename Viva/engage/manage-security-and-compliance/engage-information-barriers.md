@@ -21,12 +21,14 @@ description: "Implementing Information barriers for Viva Engage"
 
 # Data residency for Viva Engage
 
-Viva Engage supports a Publisher information bar for users that belong to an [information barriers segment](https://learn.microsoft.com/purview/information-barriers-policies). Users who compose new posts or post replies receive reminders that their content is visible to every user of their network.
+Viva Engage supports a Publisher information bar for users that belong to an [information barriers segment](./purview/information-barriers-policies.md). Users who compose new posts or post replies receive reminders that their content is visible to every user of their network.
+
+
 
 ## Prerequisites
 
 - Microsoft 365 E5 Licenses
-- Information barrier segments and associated [Microsoft Purview](/security/business/information-protection/microsoft-purview-data-loss-prevention?msockid=0bc1179f3bbf637f196f02dc3a9262da) policies that are in place. The _policies_ are sets of data loss rules to define when engagement between different information barrier segments is allowed or blocked.
+- Information barrier segments and associated Microsoft Purview policies that are in place. The _policies_ are sets of data loss rules to define when engagement between different information barrier segments is allowed or blocked.
 
 ## Admin enablement process
 
@@ -44,4 +46,4 @@ You can disable this feature for particular segments or turn them on and off for
 
 ## Experiences
 
-Users that belong to an information barriers segment see the following information bar attached to their Publisher.
+Users that belong to an information barriers segment see the information bar attached to their Publisher.
