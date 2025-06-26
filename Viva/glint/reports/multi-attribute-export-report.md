@@ -1,12 +1,12 @@
 ---
-title: Use Microsoft Viva Glint's Multi-Attribute Export report for admins 
-description: "Using the Multi-Attribute Export report, admins can deep dive into survey scores and view results of combinations for up to three attributes."
+title: Use Viva Glint's Multi-attribute export
+description: Microsoft Viva Glint Administrators can deep dive into survey scores and view results of combinations of up to three attributes.
 ms.author: AWeixelman
 author: AliciaWeixelman
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: multi-attribute export, combined attribute export
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,46 +14,99 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2025
+ms.date: 06/24/2025
 ---
 
-# Use Microsoft Viva Glint's Multi-Attribute Export report for admins 
+# Use Viva Glint's Multi-attribute export
 
-Admins can deep dive into survey scores and view results of combinations for up to three attributes. The Multi-Attribute Export report is available for both Engagement-type surveys and Employee Lifecycle surveys. 
+Microsoft Viva Glint Administrators can deep dive into survey scores and view results of combinations of up to three attributes. The Multi-attribute export is available for both Engagement-type surveys and Employee Lifecycle surveys. 
 
-## Access the Multi-Attribute Export report from the admin dashboard 
+## Access the Multi-attribute export
 
-Available only to admins: 
+Only Viva Glint Admins can access this export.
 
-1. Select **Reports** from the navigation menu bar.
-2. Select the **Multi-Attribute Export** report tile. 
+1. Select **Reports** from the Viva Glint Dashboard.
+2. In the **Survey programs** list on the left, select a survey.
+3. Select the **Multi-attribute export** tile.
+4. Depending on the survey type, use the following information to export results:
+   - [Recurring or Ad Hoc surveys](#export-results-for-recurring-and-ad-hoc-surveys)
+   - [Always-On and Employee Lifecycle surveys](#export-results-for-always-on-and-employee-lifecycle-surveys)
 
-## Select up to three attributes to generate the Multi-Attribute Export file 
+## Export results for Recurring and Ad Hoc surveys
 
-Attributes are available in the dropdown menu based on the data sent to Viva Glint in your Employee Attribute File. Filtering this report looks a bit different for Engagement cycle reports and Always-On and Employee Lifecycle reports. When the attributes have been chosen, select **Export**.
+In the Multi-attribute export dialog that appears:
 
-Viva Glint provides four default options for comparison reporting. In addition to the following four settings, your company may have one or more internal comparisons configured (for example, Division or Business Unit).
+1. Confirm that the **Survey program** displayed is the survey initially selected from the **Survey programs** list.
+2. Select a survey cycle from the **Program cycle** dropdown menu.
+3. In the Attributes field, select an attribute. The number of unique attribute values displays next to the selected attribute.
 
-### Benchmark comparison options
+   > [!NOTE]
+   > When an attribute has zero values, a warning message appears. Select attributes that have at least one value.
+   
+4. To add up to three total attributes, use the **+ Add an attribute** option and select more attributes.
 
-|Comparator|Description|When to use|
-|-------|--------|-----------|
-|**Benchmark**|Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers, not just within your organization.| Helpful for admins and first-time survey results analysis|
-|**Company**  | Displays team scores in comparison to company-wide scores for the same questions.| Helpful for users with more than one area of responsibility|
-|**My Teams** | Compares a manager's team score to an overall score derived from a filter.| This setting is the superset of access and is best used with custom access or managers with large organizations|
-|**Average Question** |Presents a single, overall score for all questions and respondents within your access.| Helpful for users looking for some level of variance in their score|
+   :::image type="content" source="../../media/glint/reports/multi-attribute-recurring.png" alt-text="Screenshot of survey and attribute selections for a recurring survey.":::
 
-Admins may change the three attributes selected as often as desired.  
+   > [!NOTE]
+   > When the attribute value combinations for selected attributes exceed 12,000, a warning message appears. Remove or select a different combination of attributes.
 
-## Filtering the export file for Engagement reports
+5. Select **Export** after making all selections.
 
-Engagement report setup requires the **Program Cycle** date.  
+## Export results for Always-On and Employee Lifecycle surveys
 
-## Filtering the export file for Employee Lifecycle and Always-On reports 
+In the Multi-attribute export dialog that appears:
 
-Employee Lifecycle and Always-On report setup requires that a Start Date and End Date be provided. 
+1. Confirm that the **Survey program** displayed is the survey initially selected from the **Survey programs** list.
+2. Select a Start and End date in the **Date range** section.
+3. In the Attributes field, select an attribute. The number of unique attribute values displays next to the selected attribute.
 
-## Access the downloaded Multi-Attribute Export file 
+   > [!NOTE]
+   > When an attribute has zero values, a warning message appears. Select attributes that have at least one value.
 
-Once an onscreen message appears indicating that the report is downloaded, select **Close Tab**, and open your newly generated file. 
+4. To add up to three total attributes, use the **+ Add an attribute** option and select more attributes.
+  
+   :::image type="content" source="../../media/glint/reports/multi-attribute-always-on.png" alt-text="Screenshot of date and attribute selections for an always-on survey.":::
+
+   > [!NOTE]
+   > When the attribute value combinations for selected attributes exceed 12,000, a warning message appears. Remove or select a different combination of attributes.
+   
+## Multi-attribute export content
+
+Rows 1 - 5 include information about exported data, including:
+
+- The Multi-attribute export file name
+- The program type
+- The survey name
+- The export date
+- The survey date range (for Always-On and Lifecycle surveys) or the program cycle date (for Recurring and Ad Hoc surveys)
+
+The column headers for results data start on row 6 and include:
+
+1. (First selected attribute)
+2. (Second selected attribute)
+3. (Third selected attribute)
+4. Overall Invitees
+5. Overall Respondents
+6. Overall Response Rate
+7. Questions
+8. Question Text
+9. Question Respondents
+10. Average Score
+11. Percent Favorable
+
+## Attribute selection order and data suppression
+
+The Multi-attribute export adheres to your organization's selected confidentiality and suppression thresholds. The export evaluates data to suppress each time the export is generated and takes into account the order that users select attributes.
+
+### Example
+
+When a Viva Glint Admin selects Location and then Gender as attributes for their export, they see that data for the Female + Mexico combination is suppressed due to the low respondent count for the "Other" value for Gender:
+
+:::image type="content" source="../../media/glint/reports/multi-attribute-loc-gender.png" alt-text="Screenshot of attribute value combinations when location is selected before gender.":::
+
+But when the admin selects Gender first and then Location for the same survey, they see results for Mexico + Female:
+
+:::image type="content" source="../../media/glint/reports/multi-attribute-gender-loc.png" alt-text="Screenshot of attribute value combinations when gender is selected before location.":::
+
+The first combination of attribute values evaluates based on suppressed Gender + Location values, while the second combination evaluates on suppressed Location + Gender values.
 

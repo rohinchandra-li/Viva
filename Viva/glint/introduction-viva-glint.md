@@ -17,7 +17,7 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/31/2025
+ms.date: 06/24/2025
 ---
 
 # Introduction to Microsoft Viva Glint
@@ -51,6 +51,7 @@ Use Viva Glint learning paths and modules to gain badges and deepen your underst
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/notebook-blue.png" ::: | **Learning paths and modules** | <ul><li>[Courses for admins](https://go.microsoft.com/fwlink/?linkid=2275357)</li> <li>[Courses for Managers](https://go.microsoft.com/fwlink/?linkid=2275358)</li></ul>|
 |:::image type="icon" source="/office/media/icons/certificate-blue.png" ::: | **Badge certifications** | <ul><li>[Viva Glint Foundations badge](https://go.microsoft.com/fwlink/?linkid=2275359)</li> <li>[Viva Glint Manager badge](https://go.microsoft.com/fwlink/?linkid=2275437)</li></ul>|
+|:::image type="icon" source="/office/media/icons/video-play.png" ::: | **Webinar recordings** | <ul><li>[Viva Glint Ask the Experts sessions](https://adoption.microsoft.com/viva/glint/ask-the-experts/)</li><li>[Psychological safety sessions](https://adoption.microsoft.com/viva/building-psychological-safety/)</li></ul>|
 
 ## Connect
 
@@ -59,7 +60,7 @@ Stay connected with Viva Glint and your peers with blogs, the Viva Glint Communi
 | :::image type="icon" source="/office/media/icons/meeting.png" ::: | Item | Resources|
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/blog-site-blue.png" ::: | **Explore Viva blogs** | <ul><li>[Viva Glint research and updates](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)</li> <li>[Viva Suite of products](https://techcommunity.microsoft.com/category/microsoft-viva/blog/microsoftvivablog)</li></ul>|
-|:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Connect with Viva Glint and others** | <ul><li>[Join the product council](https://techcommunity.microsoft.com/blog/viva_glint_blog/shape-the-future-of-viva-glint-by-joining-our-product-council/4063627)</li> <li>[Join a Learning Circle](https://techcommunity.microsoft.com/blog/microsoftvivablog/connect-and-collaborate-in-our-viva-and-copilot-customer-cohorts/4394118)</li><li>[Join a Customer Cohort](https://techcommunity.microsoft.com/blog/viva_glint_blog/join-our-customer-cohorts/4124682)</li><li>[Engage with peers in the Viva Glint Community](https://techcommunity.microsoft.com/category/Viva-Glint)</li><li>[Attend Viva Glint Ask the Experts sessions](https://adoption.microsoft.com/viva/glint/ask-the-experts-resources/)</li></ul>|
+|:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Connect with Viva Glint and others** | <ul><li>[Join the product council](https://techcommunity.microsoft.com/blog/viva_glint_blog/shape-the-future-of-viva-glint-by-joining-our-product-council/4063627)</li> <li>[Join a Learning Circle](https://techcommunity.microsoft.com/blog/microsoftvivablog/connect-and-collaborate-in-our-viva-and-copilot-customer-cohorts/4394118)</li><li>[Engage with peers in the Viva Glint Community](https://techcommunity.microsoft.com/category/Viva-Glint)</li></ul>|
 
 ## Get support
 

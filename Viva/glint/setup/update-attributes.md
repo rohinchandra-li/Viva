@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/19/2025
+ms.date: 06/20/2025
 ---
 
 # Update attributes in Viva Glint
@@ -123,9 +123,11 @@ To edit optional system attributes after your initial setup:
 
       :::image type="content" source="../../media/glint/setup/new-optional-attribute.png" alt-text="Screenshot of the Optional System Attributes section after selecting the Manage Optional System Attributes button.":::
 
-## Rename hierarchy attributes
+## Manage hierarchy groups
 
-Use the following guidance to rename hierarchy attributes **before** updating your employee data files so that they continue to import seamlessly. Use these steps to update the Hierarchy group name for your manager hierarchy or the group and level names for other hierarchies.
+Use the following guidance to manage hierarchy attributes **before** updating your employee data files so that they continue to import seamlessly. Use these steps to update Hierarchy group or level names, add new hierarchies, or edit existing hierarchy levels.
+
+### Rename hierarchy attributes
 
 To rename a hierarchy group:
 
@@ -151,6 +153,36 @@ To rename hierarchy levels:
 
    > [!CAUTION]
    > Use this method if the underlying data remains the same, but the hierarchy level name changes in your system. Repurposing attribute name labels can create issues in reporting. For example, rename a "Department" level to "Team" only if the values in the column remain the same.
+
+### Add a hierarchy
+
+To add a new hierarchy group:
+
+1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Hierarchy Groups** section, select **+ Add Hierarchy Group**.
+4. In the dialog that appears, enter a **Hierarchy group name**.
+
+   :::image type="content" source="../../media/glint/setup/add-hierarchy.png" alt-text="Screenshot of the Viva Glint dialog to add a new hierarchy.":::
+   
+6. Select the **+ Add level** to add as many levels as needed, up to 10.
+7. Next to each level, enter a name.
+8. Select **Create**.
+
+### Edit hierarchy levels
+
+1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Hierarchy Groups** section, select the ellipsis next to the hierarchy group to edit and choose **Edit hierarchy group.**
+4. In the dialog that appears, select a level name to edit or use the **+ Add level** option to add a new lowest level.
+
+   :::image type="content" source="../../media/glint/setup/edit-hierarchy.png" alt-text="Screenshot of the Viva Glint dialog to edit a hierarchy group.":::
+   
+5. Enter a name for any new levels.
+6. Select **Save changes**.
+
+   > [!CAUTION]
+   > Rename levels only if the underlying data remains the same, but the hierarchy level name changes in your system. Repurposing attribute name labels can create issues in reporting. For example, rename a "Department" level to "Team" only if the values in the column remain the same.
 
 ## Update custom attribute visibility
 

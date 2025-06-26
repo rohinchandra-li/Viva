@@ -41,10 +41,6 @@ To add a user:
    > There is no field for Employee ID for Support users. By default, the ID is always the value that admins enter for the Support user's Email.
    
 5. The **Company Admin User Role** is selected by default and grants Support users the required level of access to help in your Viva Glint account.
-
-    > [!IMPORTANT]
-    > Support users in Viva Glint don't have all export/import abilities.
-
 6. Switch the **External user** toggle to **Yes** to flag guests in Viva Glint.
 7. Switch the **Grant user advanced configuration access** setting to **Yes** to allow Support users access to **Advanced Configuration** features.
   
