@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/13/2025
+ms.date: 06/20/2025
 ---
 
 # Use Viva Glint’s Executive Summary report
@@ -22,6 +22,9 @@ ms.date: 06/13/2025
 The Microsoft Viva Glint Executive summary report is a group of reports useful to admins for presenting high level results to your team, leaders, or the company. 
 
 :::image type="content" source="../../media/glint/reports/exec-summary-report.png" alt-text="Screenshot of the Viva Glint executive summary report.":::
+
+> [!NOTE]
+> Users in roles who [don't have access to all questions](/viva/glint/setup/reporting-setup#set-up-question-reporting-access) only see questions and comment counts for questions that they have access to.
 
 ## Executive summary report content
 

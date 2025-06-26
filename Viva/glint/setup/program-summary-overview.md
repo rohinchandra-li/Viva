@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/30/2025
+ms.date: 06/20/2025
 ---
 
 # Set up a Microsoft Viva Glint Recurring survey
@@ -31,8 +31,8 @@ Use Microsoft Viva Glint Recurring surveys to measure employee sentiment on topi
 3. Select **+ New Program.**
 4. Choose a survey template or start with a blank template in the **Recurring** section.
 
-   > [!IMPORTANT]
-   > The blank recurring survey template doesn't support adding multiple cycles. To ensure that new survey cycles are supported, use a preloaded Recurring survey template and remove unneeded questions. 
+   > [!NOTE]
+   > The blank recurring survey template supports adding multiple cycles.
 
    :::image type="content" source="../../media/glint/setup/recurring-survey-templates.png" alt-text="Screenshot of Viva Glint Recurring survey templates available to admins.":::
    

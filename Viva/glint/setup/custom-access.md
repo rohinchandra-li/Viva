@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/30/2025
+ms.date: 06/23/2025
 ---
 
 # Custom data access in Viva Glint
 
-Microsoft Viva Glint offers custom data access for users who support unique groups of employees in your organization. Users may need to have their default team access modified or are in a role so specific, access needs to be set at the user level. Use the guidance in this article to export, modify, and import custom data access. To make individual updates to users' custom data access, see: [Custom User Role setup in Viva Glint](custom-user-role.md).
+Microsoft Viva Glint offers custom data access for users who support unique groups of employees in your organization. Users may need to have their default team access modified or are in a role so specific, access needs to be set at the user level. Use the guidance in this article to export, modify, and import custom data access. To grant custom access at the role level or for individual users, see: [User roles with custom access](custom-user-role.md).
 
 ## Export custom access
 

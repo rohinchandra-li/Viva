@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: distribution lists, attribute rules, delete distribution lists, exclude distribution lists
+keywords: distribution lists, attribute rules, exclude distribution lists
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/12/2025
+ms.date: 06/20/2025
 ---
 
 # Set up and manage Viva Glint Distribution Lists
 
-Microsoft Viva Glint Distribution Lists define which employees in your organization are eligible for a survey. Refine lists using employee attributes uploaded to Viva Glint, upload a file of users, use date-based lists, and edit or delete lists over time.
+Microsoft Viva Glint Distribution Lists define which employees in your organization are eligible for a survey. Refine lists using employee attributes uploaded to Viva Glint, upload a file of users, use date-based lists, and edit lists over time.
 
 > [!NOTE]
 > To set up Distribution Lists, complete [attribute setup](/../../viva/glint/setup/send-employee-attributes) and [upload data to the Viva Glint system.](/../../viva/glint/setup/upload-employee-attributes)
@@ -162,24 +162,4 @@ Editing a Distribution List is a global change and affects any program using tha
 1. Select the Distribution List you want to modify. 
 1. Select  **Add/Edit Employees**  or  **Edit Attribute Rules** if there are filters available. 
 1. Make the necessary changes and select **Save Changes**. 
-
-## Delete a list
-
-Viva Glint Admins can delete lists by hovering over the list and selecting the **Delete** option. A **Delete Distribution List** dialog opens with a list of survey programs that use the list. 
-
-:::image type="content" source="../../media/glint/setup/delete-dl-alert.png" alt-text="Screenshot of the Viva Glint distribution list deletion dialog that alerts users to surveys that use the list.":::
-
-To delete the Distribution List, remove it from the Distribution section of the program.
-
-1. Select **Configuration** and then select **Survey Programs**.
-2. **Select the survey.**
-3. Select **Distribution** and remove the list.
-4. Repeat this process for all survey programs that use the list.
-5. Return to **Distribution Lists** and select the **Delete** option for the list.
-6. In the **Are you sure?** dialog that appears, select **Yes, I'm sure.**
-  
-   :::image type="content" source="../../media/glint/setup/delete-dl-confirm.png" alt-text="Screenshot of the Viva Glint distribution list deletion confirmation dialog.":::
-
-   > [!IMPORTANT]
-   > Deleting a Distribution List is a permanent action. The data of the members of that list isn't deleted.
 

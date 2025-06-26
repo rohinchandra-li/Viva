@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/19/2025
+ms.date: 06/20/2025
 ---
 
 # Set up attributes in Viva Glint
@@ -22,11 +22,11 @@ ms.date: 05/19/2025
 Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint. To set up required, custom, hierarchy, and derived attributes, use the decisions made in the [Employee attribute template](create-employee-attribute-template.md) as a guide.
 
 > [!NOTE]
-> Before starting, confirm that the attribute selections in your Employee attribute template are **final**. Viva Glint Admins can't edit, file format, date attribute formats, or add new hierarchies/hierarchy levels after initial setup is complete. 
+> Before starting, confirm that the attribute selections in your Employee attribute template are **final**. Viva Glint Admins can't edit file or date attribute formats. 
 
 ## Attribute setup in Viva Glint
 
-To set up attributes Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to create a mapping to import employee data.
+To set up attributes Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, attribute setup process to create a mapping to import employee data.
 
 > [!CAUTION]
 > The Viva Glint Admin who sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the **Language** dropdown menu in Viva Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
@@ -64,11 +64,11 @@ Check that the attribute names and values appear as expected.
      > - Viva Glint transforms incoming dates to Viva Glint's preferred format, yyyy/mm/dd, upon upload.
      > - Complete date selection in this step and Derived attribute setup in the next step to import dates in a format that's usable for Distribution lists and survey triggers. 
 
-3. After finished previewing, select **Continue**.
+3. After previewing, select **Continue**.
 
 ## 3. Set up attributes
 
-Map your uploaded and confirmed attributes to Viva Glint fields. This setup is divided into three sections:
+Map your uploaded and confirmed attributes to Viva Glint fields. This setup is divided into four sections:
 
 ### Required attributes
 
@@ -127,7 +127,7 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 
 ### Hierarchy groups
 
-Select your attributes from the dropdown menu for each hierarchy group.
+Select your attributes from the dropdown menu for each hierarchy group. If needed, you can return to this section later to [add new hierarchy groups, rename groups or levels, or add new lowest levels](update-attributes.md#manage-hierarchy-groups).
 
 - To have Viva Glint create a Manager Hierarchy, map your manager ID field from your employee data to Manager ID.
 - To add more levels to a hierarchy, select **+ Add Level**.

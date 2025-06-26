@@ -1,6 +1,6 @@
 ---
-title: Managers using the Team Summary dashboard in Viva Glint
-description: "The Viva Glint Team Summary manager dashboard experience provides feedback visibility into key insights, strengths, and opportunities."
+title: The Team Summary dashboard in Viva Glint
+description: The Viva Glint Team Summary manager dashboard experience provides feedback visibility into key insights, strengths, and opportunities.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -14,13 +14,12 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/27/2024
+ms.date: 06/20/2025
 ---
 
-# Managers using the Team Summary dashboard in Viva Glint
+# The Team Summary dashboard in Viva Glint
 
-The Team Summary manager dashboard experience displays results from the most recently closed program. You can choose to see results from previous programs as well. 
-This guide describes each section in the manager dashboard. 
+The Team Summary dashboard experience displays results from the most recently closed program. You can choose to see results from previous programs as well. This guide describes each section in the manager dashboard. 
 
 ## Understand the survey title card 
 
@@ -44,6 +43,9 @@ Your manager sees the following four steps:
 ## What else does your manager see on their dashboard? 
 
 The manager dashboard defaults to showing the results from the most recent survey program. Switch to another program by using the **Switch Program** drop down menu.
+
+> [!NOTE]
+> Users in roles who [don't have access to all questions](/viva/glint/setup/reporting-setup#set-up-question-reporting-access) only see questions and comment counts for questions that they have access to.
 
 ### Survey participation 
 

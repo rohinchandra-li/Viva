@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/18/2025
+ms.date: 06/20/2025
 ---
 
 # Key roles for Viva Glint
@@ -26,7 +26,7 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 |Role  | Assigned by | Role grants access to the Microsoft 365 admin center to submit support requests  | Role grants access to the Viva Glint app |
 |:----------|:-----------|:------------|:------------|
 |Microsoft 365 Global Administrator   | Entra organization signup (automatic) | Yes | No  |
-|Viva Glint Tenant Administrator   | Microsoft 365 Global Administrator | Yes | No  |
+|Viva Glint Tenant Administrator (optional)   | Microsoft 365 Global Administrator | Yes | No  |
 |Viva Glint Administrator             | Viva Glint Tenant Administrator | No  | Yes |
 |Viva Glint manager                   | Viva Glint Administrator | No  | Yes |
 |Viva Glint end user                  | Distribution list | No  | No  |
@@ -52,7 +52,20 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 
 - Provisions Viva Glint tenants
 - Represents your organization, initiates, and controls Viva Glint product subscriptions and licenses
-- Assigns Viva Glint Tenant Administrators
+- Assigns Viva Glint Tenant Administrators (optional)*
+- Assigns Viva Glint Administrators
+- Views message center information in the Microsoft 365 admin center
+- Files Microsoft 365 and Azure support tickets
+- Views service health information
+- Views Usage Reports
+
+\* The Viva Glint Tenant Administrator role is designed to reduce the workload of the Microsoft 365 Global Administrator by allowing the delegation of Viva Glint-specific administrative tasks to another individual. When assigned, the Viva Glint Tenant Administrator can perform the following functions within the Viva Glint platform.
+
+- Assigns Viva Glint Administrators
+- Views message center information in the Microsoft 365 admin center
+- Files Microsoft 365 and Azure support tickets
+- Views service health information
+- Views Usage Reports
 
 ## [Viva Glint Tenant Administrator](/entra/identity/role-based-access-control/permissions-reference#viva-glint-tenant-administrator )
 

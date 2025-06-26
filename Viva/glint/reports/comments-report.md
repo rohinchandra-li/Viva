@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/21/2025
+ms.date: 06/20/2025
 ---
 
 # Use Viva Glint’s Comments report 
@@ -24,11 +24,16 @@ Reviewing comments allows managers to gain further insights into their results. 
 
 Read [*Narrative Intelligence:  Enable true understanding of employee feedback*](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799) to learn how individual comments are surfaced and calculated.
 
-## Access the Comments dashboard
+## Access the Comments report
 
 The Comments report is accessed from the Viva Glint dashboard by selecting the **Reports** tab and then **Comments**.
 
-The Comments report is divided into sections. **Overview** displays by default.
+The Comments report is divided into sections. 
+
+> [!NOTE]
+> Users in roles who [don't have access to all questions](/viva/glint/setup/reporting-setup#set-up-question-reporting-access) only see questions and comment counts for questions that they have access to.
+
+### Overview
 
 :::image type="content" source="../../media/glint/reports/comments-overview.png" alt-text="Screenshot of Comments Overview default sections."
 

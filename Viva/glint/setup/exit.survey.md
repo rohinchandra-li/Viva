@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/12/2025
+ms.date: 06/25/2025
 ---
 
 # Use Viva Glint Exit surveys
@@ -22,6 +22,9 @@ ms.date: 03/12/2025
 An employee’s exit is a critical part of your organization's employee lifecycle. Without an effective exit program, you may miss the opportunity to gather feedback that helps identify triggers that may cause future employee departures. Organizations that collect data with Microsoft Viva Glint Exit surveys can use it to proactively improve the overall employee experience. Increase engagement, performance, and retention, and reduce business disruption and costs by measuring Exit experiences. 
 
 Viva Glint Exit surveys help organizations understand why people leave, the experience they had as they left, and what they can do for the organization after departing. They can be a brand ambassador or tarnish your reputation with negative feedback and reviews.
+
+> [!IMPORTANT]
+> Viva Glint isn't designed to support HR Teams entering one-to-one exit interview feedback into the platform. Respondents should access surveys independently to provide responses.
 
 ## Viva Glint Exit survey program items
 
