@@ -82,21 +82,21 @@ For detailed scenario-based guidance on how to set up an analysis tailored to yo
 3. Under **Query setup**:
     
     1. Type a **Query name**.
-    1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
+    2. Select a **Time period**. **Time period** defaults to **Last 3 months**.
 
     >[!IMPORTANT]
     > When selecting a time period, make sure it aligns with the time period for the uploaded business outcome data, and that there's business outcome data for each user for each queried month.
 
-    1. Set **Auto-refresh** (optional). You can set the query to automatically update by selecting the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
+    3. Set **Auto-refresh** (optional). You can set the query to automatically update by selecting the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
-       > [!NOTE]
-       > If organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), the query might stop auto-refreshing.
+    > [!NOTE]
+    > If organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), the query might stop auto-refreshing.
 
-     4. Type a **Description** (optional).   
-     5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. [Learn more about metric rules](../../analyst/metric-rules.md).
+    4. Type a **Description** (optional).   
+    5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. [Learn more about metric rules](../../analyst/metric-rules.md).
 
-        > [!NOTE]
-        > The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you can't change this setting.
+    > [!NOTE]
+    > The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you can't change this setting.
 
 4. Under **Select business outcome metrics of interest**, select one or more metrics that include your business outcome data. Select the dataset type and name of the dataset that has the business outcome measures you are looking for. You can select up to 5 metrics maximum.  
 
