@@ -58,8 +58,11 @@ There are two ways to upload your business outcome data in the Viva Insights web
 
 >[!IMPORTANT]
 > Your business outcome data must include a row for each user for each month that you want to include in the report. For example, if a query is set for 1/1/2025 to 3/31/2025, the business impact data would need to include the following rows of data for each user:
+>
 > Person A | 1/1/2025 | Business impact metric
+>
 > Person A | 2/1/2025 | Business impact metric
+>
 > Person A | 3/1/2025 | Business impact metric
 
 ### What are sample business outcome metrics to consider?  
