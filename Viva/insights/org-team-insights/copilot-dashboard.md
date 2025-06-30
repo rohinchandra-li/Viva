@@ -449,7 +449,7 @@ With a Viva Insights subscription, this section of the dashboard also lets you e
 
 :::image type="content" source="images/copilot-dashboard-sentiment-heatmap.png" alt-text="Screenshot that shows the Sentiment heat map.":::
 
-#### Upload group-level survey results with the advanced insights app
+#### Upload group-level survey results with the Viva Insights web app
 
 *Applies to: Viva Insights admin* 
 
@@ -512,7 +512,7 @@ For questions that did not receive an employee response, such as Question 3 for 
 
 For additional guidance on how to format your .csv file, refer to this example formatted .csv: [Impact Dashboard survey sample file](https://go.microsoft.com/fwlink/?linkid=2260529).
 
-Once you’ve formatted the .csv file accordingly, use these steps to upload it:
+Once you've formatted the .csv file accordingly, use these steps to upload it:
 
 1. In the Viva Insights analyst experience, select **Survey data**.
 
