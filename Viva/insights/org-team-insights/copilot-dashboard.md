@@ -75,7 +75,7 @@ For those qualifying tenants, only users who meet all of the following criteria 
 * Users who are assigned the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference#global-administrator) also have access to the Microsoft Copilot Dashboard
 
     >[!Note]
-    >If you are a Privileged Identity Management (PIM) enabled tenant, the Global Admins might not have access to the Copilot Dashboard. If you want to give Global Admins access to the Copilot Dashboard, add them explicitly using [these steps](../advanced/admin/manage-settings-copilot-dashboard.md#manage-access-for-individual-users-and-groups).
+    >If you are a Privileged Identity Management (PIM) enabled tenant, the Global Admins might not have access to the Copilot Dashboard. If you want to give Global Admins access to the Copilot Dashboard, add them explicitly using [these steps](../advanced/admin/manage-settings-copilot-dashboard.md#manage-access-to-the-viva-insights-web-app-for-individual-users-and-groups).
 
 The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they are not added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
@@ -310,7 +310,7 @@ For each of these, we recommend allowing users to indicate whether or not they S
 
 **Upload tenant-level survey results through the Microsoft 365 admin center**
 
-Microsoft 365 global admins can upload aggregated survey results through Adoption Score in the Microsoft 365 admin center. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md#upload-aggregated-survey-results).
+Microsoft 365 global admins can upload aggregated survey results through Adoption Score in the Microsoft 365 admin center. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md#upload-aggregated-survey-results-for-the-dashboard).
 
 #### Impact page for companies with at least 50 assigned Copilot licenses
 
@@ -633,7 +633,7 @@ The values under the first two columns (Group 1 & Group 2) are calculated using 
 If you notice a slight difference in the number of Copilot licensed employees or the number of active Copilot users between the readiness and adoption pages, it might be because the adoption page:
 
 * Uses a slightly different date range
-* Excludes users because an admin created an [exclusion list](..//advanced/admin/manage-settings-copilot-dashboard.md#create-an-exclusion-list-hide-users-from-aggregates)
+* Excludes users because an admin created an [exclusion list](..//advanced/admin/manage-settings-copilot-dashboard.md#create-an-exclusion-list-for-the-dashboard-hide-users-from-aggregates)
 * Excludes users with licenses that are assigned to disabled mailboxes. [Learn more about disabled mailboxes](/exchange/recipients/disconnected-mailboxes/connect-disabled-mailboxes).
 * Excludes users with licenses that are assigned to disabled accounts
 
