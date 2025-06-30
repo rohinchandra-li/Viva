@@ -138,7 +138,7 @@ There are two ways you can upload Organizational data:
 
 1. Your Viva Insights Administrator can upload data through the Viva Insights web app using [these steps](../admin/org-data-overview.md). This is the recommended way to upload data if you have Viva Insights.  
 
-    * [Learn more about data quality in the Viva Insights web app](../admin/org-data-overview.md#organizational-data-in-the-advanced-insights-app).
+    * [Learn more about data quality in the Viva Insights web app](../admin/org-data-overview.md#organizational-data-in-the-viva-insights-web-app).
     * To avoid more delays on data showing in the dashboard, the Viva Insights Administrator should include **EffectiveDate** fields and set the date earlier than the upload date. [Learn more](../admin/prepare-org-data.md).
 
 2. Your Microsoft 365 Global Administrator can upload data through the admin center using [these steps](/viva/organizational-data).
