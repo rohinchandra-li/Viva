@@ -56,6 +56,12 @@ Before you can run the query and populate the report in Power BI, you’ll need 
 
 There are two ways to upload your business outcome data in the Viva Insights web app: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights;  or through an Azure blob import that you, your source system admin, and your Azure contributor setup. Learn more about how to import business data [using Azure](..//..//admin/import-business-data-azure.md), or [using a manual .csv upload](..//..//admin/import-business-data-csv.md).
 
+>[!IMPORTANT]
+> Your business outcome data must include a row for each user for each month that you want to include in the report. For example, if a query is set for 1/1/2025 to 3/31/2025, the business impact data would need to include the following rows of data for each user:
+> Person A | 1/1/2025 | Business impact metric
+> Person A | 2/1/2025 | Business impact metric
+> Person A | 3/1/2025 | Business impact metric
+
 ### What are sample business outcome metrics to consider?  
 
 The [Copilot Scenario Library](https://adoption.microsoft.com/copilot-scenario-library) offers detailed business outcome-focused guidance, use cases, and additional information relevant for each functional area.
@@ -74,6 +80,10 @@ For detailed scenario-based guidance on how to set up an analysis tailored to yo
     
     1. Type a **Query name**.
     1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
+
+    >[!IMPORTANT]
+    > When selecting a time period, make sure it aligns with the time period for the uploaded business outcome data, and that there's business outcome data for each user for each queried month.
+
     1. Set **Auto-refresh** (optional). You can set the query to automatically update by selecting the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
        > [!NOTE]
