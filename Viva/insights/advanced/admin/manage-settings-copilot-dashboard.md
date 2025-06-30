@@ -27,7 +27,7 @@ As an admin, you can configure several features of the Microsoft Copilot Dashboa
 >In addition to the roles described below, all settings can also be managed by Microsoft 365 Global Administrators.
 
 >[!IMPORTANT]
-> Previous controls to manage access to the dashboard using the Copilot Dashboard control in Microsoft Admin Center or using Powershell are no longer available. You can manage access to the dashboard by enabling or disabling the Viva Insights web app. [Learn how](#enable-or-disable-the-viva-insights-web-app).
+> Previous controls to manage access to the dashboard using the Copilot Dashboard control in the Microsoft 365 admin center or using Powershell are no longer available. You can manage access to the dashboard by enabling or disabling the Viva Insights web app. [Learn how](#enable-or-disable-the-viva-insights-web-app).
 
 ## Manage access to the Viva Insights web app for individual users and groups
 
