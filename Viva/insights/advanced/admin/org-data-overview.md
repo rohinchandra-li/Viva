@@ -95,7 +95,7 @@ So, when you view your organizational data in the Viva Insights web app, you'll 
 
 To learn how to set up and structure an organizational data .csv file, refer to [Prepare organizational data](prepare-org-data.md).
 
-## Organizational data in the advanced insights app
+## Organizational data in the Viva Insights web app
 
 To check on your organizational data quality, and to add new data to the Viva Insights web app, use the **Data hub** and **Organizational data** pages.
 

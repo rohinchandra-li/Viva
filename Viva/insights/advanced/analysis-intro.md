@@ -98,7 +98,7 @@ As an admin, use the **Data hub** to:
 
 On the **Organizational data** page, check your upload status, view your field mapping results, and download related errors.
 
-For a tour of the **Organizational data** page, refer to [Organizational data overview](../advanced/admin/org-data-overview.md#organizational-data-in-the-advanced-insights-app).
+For a tour of the **Organizational data** page, refer to [Organizational data overview](../advanced/admin/org-data-overview.md#organizational-data-in-the-viva-insights-web-app).
 
 ### Business data 
 
