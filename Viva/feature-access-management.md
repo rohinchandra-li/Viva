@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: loreenl
 author: lizap
 manager: elizapo
-ms.date: 03/26/2025
+ms.date: 06/30/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -74,7 +74,8 @@ You can use feature access management to manage access to the following features
 ||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes|Engage admin|VivaEngage|
 |Glint|[Copilot in Viva Glint](/viva/glint/copilot/admin-enable)|No|Global admin|VivaGlint|
 |Goals|[Copilot in Viva Goals](/viva/goals/copilot-intro)|No|Goals admin|VivaGoals|
-|Insights|[Advanced Insights](/viva/insights/advanced/introduction-to-advanced-insights)|No|AI admin|VivaInsights|
+|Insights|[Viva Insights web app](/viva/insights/advanced/admin/manage-settings-copilot-dashboard.md#enable-or-disable-the-viva-insights-web-app)|Yes|AI admin|VivaInsights|
+||[Advanced analysis](/viva/insights/advanced/analysis-intro)|No|AI admin|VivaInsights|
 ||[Analyst Report Publish (preview)](/viva/insights/advanced/analyst/publish-reports)|No|Viva Insights admin|VivaInsights|
 ||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|AI admin|VivaInsights|
 ||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|AI admin|VivaInsights|
