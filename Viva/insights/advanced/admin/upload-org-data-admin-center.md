@@ -58,7 +58,7 @@ To upload data, follow the Organizational data in Microsoft 365 wizard to comple
 
 ## Other capabilities remaining in the Viva Insights web app
 
-While uploading and managing organizational data must now be done in the Microsoft 365 admin center, all other tasks must still be done in the Viva Insights web app such as creating [data partitions](../admin/partitions.md), uploading all other types of data such as [sentiment data](../../org-team-insights/copilot-dashboard.md#upload-group-level-survey-results-with-the-advanced-insights-app), business outcome data, and managing your Viva Insights [admin settings](../admin/admin-center.md).
+While uploading and managing organizational data must now be done in the Microsoft 365 admin center, all other tasks must still be done in the Viva Insights web app such as creating [data partitions](../admin/partitions.md), uploading all other types of data such as [sentiment data](../../org-team-insights/copilot-dashboard.md#upload-group-level-survey-results-with-the-viva-insights-web-app), business outcome data, and managing your Viva Insights [admin settings](../admin/admin-center.md).
 
 ## Use Viva Insights for data uploads after transition
 

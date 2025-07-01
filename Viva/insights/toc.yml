@@ -110,6 +110,8 @@ items:
                         href: advanced/analyst/templates/onboarding.md    
                       - name: Recurring meeting audit
                         href: advanced/analyst/templates/recurring-meeting.md
+                      - name: Skills landscape report
+                        href: advanced/analyst/templates/skills-landscape.md
                       - name: Ways of working
                         href: advanced/analyst/templates/ways-of-working.md            
                       - name: Wellbeing - balance and flexibility
@@ -216,7 +218,7 @@ items:
             href: copilot-data-privacy-security.md         
       - name: Privacy and data protection
         items:
-        - name: Technical privacy guide for organization insights and advanced insights
+        - name: Technical privacy guide for organization insights and advanced analysis
           href: advanced/privacy/privacy.md
         - name: Personal insights privacy guide for admins
           href: personal/overview/privacy-guide-admins.md   
