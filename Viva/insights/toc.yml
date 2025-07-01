@@ -34,8 +34,6 @@ items:
         items:    
           - name: How to use the Copilot Dashboard
             href: org-team-insights/copilot-dashboard.md 
-          - name: Delegate access to the Copilot Dashboard
-            href: org-team-insights/delegate-access.md
           - name: Access insights with Copilot Analytics reports
             href: org-team-insights/copilot-analytics-reports.md   
           - name: View and customize your general settings
@@ -178,7 +176,7 @@ items:
                 href: advanced/admin/import-business-data-azure.md
               - name: Import business data with a .csv file
                 href: advanced/admin/import-business-data-csv.md
-              - name: Manage settings for the Copilot Dashboard
+              - name: Manage settings for the Copilot Dashboard and Viva Insights web app
                 href: advanced/admin/manage-settings-copilot-dashboard.md
               - name: Delete Copilot Studio agents data
                 href: advanced/admin/delete-copilot-studio-agents-data.md

@@ -1,5 +1,5 @@
 ---
-ms.date: 06/30/2025
+ms.date: 07/1/2025
 title: Manage settings for the Microsoft Copilot Dashboard and Viva Insights web app
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -66,13 +66,6 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
 3. Select **Remove selected users** or **Remove selected groups**.
 
-**Delegate access to the dashboard:**
-
-If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../../org-team-insights/delegate-access.md).
-
->[!Note]
->Employees can view the dashboard in the Viva Insights web app.
-
 ## Enable or disable the Viva Insights web app
 
 *Applies to: AI Administrator*
@@ -117,6 +110,13 @@ This feature access control allows AI Administrators to enable or disable the au
     IsFeatureEnabled : false
     Everyone
    ```
+
+## Delegate access to the dashboard
+
+If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../../org-team-insights/delegate-access.md).
+
+>[!Note]
+>Employees can view the dashboard in the Viva Insights web app.
 
 ## Upload organizational data for the dashboard
 
