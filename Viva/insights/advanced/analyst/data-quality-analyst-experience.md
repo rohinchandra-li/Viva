@@ -1,5 +1,5 @@
 ---
-ms.date: 06/30/2025
+ms.date: 07/7/2025
 title: Data quality in the analyst experience
 description: Learn about organizational data in the Analyst experience of the Microsoft Viva Insights web app.
 author: zachminers
@@ -37,11 +37,11 @@ In the image below, the attribute on the left, **Organization**, has high covera
    Screenshot of an upload file that shows two attributes: Organization and TimeZone. Organization has values for all 19 displayed rows. TimeZone only has values for 6 displayed rows.
 :::image-end:::
 
-### To view data quality
+## To view data quality
 
 Two pages in the Viva Insights web app inform you about your data quality: **Data hub** and **Organizational data**. You can get to these pages by selecting them from the app's left pane.
 
-#### On the Data hub
+### Data hub
 
 Use the **Data hub** page to view the number of:
 
@@ -54,7 +54,7 @@ You can also view the percentage of insights displayed in Viva Insights based on
 
 If fields are missing from your uploaded data, you'll find them in a list beneath the **Missing or low-quality insights and data fields** header. Select a missing insight to see its related data fields, and vice versa. To remove an insight from this list, your admin will need to upload the related data field(s) to the Viva Insights web app.
 
-#### On the Organizational data page
+### Organizational data page
 
 Use this page to view attribute-specific information, including:
 
@@ -63,7 +63,7 @@ Use this page to view attribute-specific information, including:
 * **Employees with this field**, which shows how many employees in your organizational data have a value for this attribute.
 * **Unique values**, which shows how many values for the attribute are unique.
 
-### To contact your admin 
+## To contact your admin 
 
 To address the data-quality errors and warnings we explain below—or to address missing insights on the **Data hub**—you might need to have your admin re-upload organizational data. The **Contact admin** page provides a list of your organization’s admins and their contact information, and also provides a button to directly send them an email. Reach the **Contact admin** page on the app's left pane.
 
@@ -138,5 +138,4 @@ If your query has low-quality supplemental attributes, or if supplemental employ
 
 On the **Analysis results** page, you might notice warnings next to your query's name. These warnings might crop up for a few reasons. Maybe you ran a query knowing that it used low-quality attributes. Or, your query might not have had any low-quality attributes at the time you ran it, but after a recent data upload, the quality of some attributes decreased.
 
-If you find a data-quality warning, select the query's name or **View query**. The app will show which attributes are of low quality. 
-
+If you find a data-quality warning, select the query's name or **View query**. The app will show which attributes are of low quality.
