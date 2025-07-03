@@ -63,6 +63,16 @@ Use this page to view attribute-specific information, including:
 * **Employees with this field**, which shows how many employees in your organizational data have a value for this attribute.
 * **Unique values**, which shows how many values for the attribute are unique.
 
+### Manager hierarchy 
+
+This metric improves the reliability of the **ManagerId** attribute by identifying specific types of data quality issues related to manager data for your organization. This metric only appears if data quality issues are found, and you can find it on the **Data quality** page. The metric provides a count of two types of data quality issues:  
+
+* **Unmatched ManagerIDs**: The number of listed managers who don't exist in your Microsoft Entra ID data. This count only appears if your organization uses Entra ID as a data source.
+
+* **Circular loops**: The number of people in a group that does not report up to a top-level manager.
+
+:::image type="content" source="../images/manager-hierarchy-metric.png" alt-text="Illustration that shows the manager hierarchy metric.":::
+
 ## To contact your admin 
 
 To address the data-quality errors and warnings we explain below—or to address missing insights on the **Data hub**—you might need to have your admin re-upload organizational data. The **Contact admin** page provides a list of your organization’s admins and their contact information, and also provides a button to directly send them an email. Reach the **Contact admin** page on the app's left pane.
