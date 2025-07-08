@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 2/24/2025
+ms.date: 7/8/2025
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -30,6 +30,8 @@ To import your data, you populate a .csv template with the attributes (or inform
 1. [Structure the organizational data](#step-2---structure-the-organizational-data)
 1. [Import your organizational data for the first time](#step-3---import-your-organizational-data-for-the-first-time)
 1. [Update or make other changes to your data](#step-4---update-or-make-other-changes-to-your-data)
+
+> [!VIDEO 79c81805-d915-4912-b462-bd9f30218fb0]
 
 ## Step 1 - Download a .csv template
 
