@@ -58,5 +58,6 @@ Viva Glint data residency is seamless to the end user. The application will appr
 
 
 ## How long is my Viva Glint data stored for?
-Viva Glint data is stored for up to 3 (three) years or when an admin explicitly deletes it. Some Customer Content, like insights or inferences based on individual responses, must be deleted at the source to cascade through computed outputs. Admins can delete files on behalf of users.
+Viva Glint will retain Customer Personal Data (Personal Data that Customer uploads or otherwise provides to Microsoft in connection with its use of the Viva Glint service) for the duration of the term of the services specified on the ordering document and in accordance with the [Microsoft Products and Services Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA). As your company’s data controller, Microsoft Viva Glint admins can delete nonactive survey data. This action deletes every data entity directly related to the survey, including overall survey configuration, items/questions, reports, responses, etc. The action won’t delete distribution lists, or any roles related with the survey. Survey data deletion in Viva Glint is an irreversible process.
+
 
