@@ -1,5 +1,5 @@
 ---
-ms.date: 04/11/2025
+ms.date: 06/30/2025
 title: Collaboration between internal and external individuals
 description: Learn how to run an external collaborator query, to understand how groups at your company collaborate with others outside your company.
 author: zachminers
@@ -31,7 +31,7 @@ The query includes:
 
 ### Set up your query
 
-1.	In the advanced insights app’s **Home** page, select **Custom queries**, find **External collaboration query**, and select **Set up analysis**. 
+1.	In the Viva Insights web app's **Create analysis** page, select **Create custom query**, find **External collaboration query**, and select **Set up analysis**. 
 1.	Name your query (optional). Queries are assigned a default name, which follows this format: "External Collaboration Query," user ID, date, and time. Make sure the name is unique.
 3.	Select a **Time period** (optional). This field defaults to Last 3 months, but you can select another. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom date range**. If you choose a Custom date range, use the date picker to select the range.  
 4.	Optional: Set the query to automatically update by selecting the **auto-refresh** box. When you turn on the auto-refresh option, your query automatically runs and computes a new result every month. This option is turned off by default, but you can use it on any query where the **Time period** isn’t customized. 
@@ -68,7 +68,7 @@ After you’ve set up your query, you’re ready to run it. In the screen’s up
 
 ### How to access your results
 
-After you run your query, go to the **Query results** page to check your query’s status. When your query is ready, a green checkmark appears under the **Status** column.
+After you run your query, go to the **Analysis results** page to check your query’s status. When your query is ready, a green checkmark appears under the **Status** column.
 
 To download your results as a .csv file, select the CSV icon under the **Downloads** column.
 

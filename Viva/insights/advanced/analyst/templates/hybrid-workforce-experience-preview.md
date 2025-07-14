@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 4/11/2025
+ms.date: 6/30/2025
 title: Hybrid Workforce Experience Power BI report (preview)
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: zachminers
@@ -62,7 +62,7 @@ Once you enable hybrid insights, you can’t turn them off unless you [file a su
 
 ### Run query
 
-1. In the analyst experience in Viva Insights, select **Analysis**.
+1. In the analyst experience in Viva Insights, select **Create analysis**.
 2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Set up analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
  3. Under **Query setup**:
@@ -100,7 +100,7 @@ Once you enable hybrid insights, you can’t turn them off unless you [file a su
 
 11. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
 
-12. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
+12. When your query results are ready, go to the **Analysis results** page and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
 
 ### Link report to query
 

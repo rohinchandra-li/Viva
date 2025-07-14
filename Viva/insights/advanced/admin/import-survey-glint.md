@@ -3,7 +3,7 @@ title: Import survey results from Viva Glint into Viva Insights
 description: Learn how to set up a connection between Glint and Viva Insights and import your data to the advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.date: 08/28/2024
+ms.date: 06/30/2025
 ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
@@ -22,13 +22,13 @@ Through this process, your company can get a more complete picture around the em
 
 **Workflow**
 
-1. The **Viva Insights admin** sets up a new import in the advanced insights app.
+1. The **Viva Insights admin** sets up a new import in the Viva Insights web app.
 
 2. The **Viva Insights admin** contacts the **Viva Glint admin** to share Viva Glint survey data, and the **Viva Glint admin** selects specific survey programs and sends the data to Viva Insights.
 
 3. **Viva Insights** validates and processes the data so it’s ready for use.
 
-## 1. Set up a new import in the advanced insights app
+## 1. Set up a new import in the Viva Insights web app
 
 *Applies to: Viva Insights admin*
 
@@ -54,7 +54,7 @@ Contact your Viva Glint admin, who will use [these steps](/viva/glint/setup/insi
 
 ### Validation
 
-After the Viva Glint admin sends data, the advanced insights app starts validating the import.
+After the Viva Glint admin sends data, the Viva Insights web app starts validating the import.
 
 After this phase completes, validation either succeeds or fails. Depending on the outcome, you’ll see “Validated, processing” or “Validation failed” on the **Import history** table on the **Data connections** tab.
 

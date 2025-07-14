@@ -1,5 +1,5 @@
 ---
-ms.date: 05/23/2024
+ms.date: 06/30/2025
 title: Upload organizational data (first upload)
 description: Learn how to first upload your data to the Viva Insights advanced insights app. 
 author: zachminers
@@ -14,16 +14,12 @@ audience: Admin
 
 # Upload organizational data (first upload)
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of two ways: through Microsoft Entra ID, which is the default source, or through a .csv file that you as an admin upload.
+Your organizational data can appear in the Viva Insights web app in one of two ways: through Microsoft Entra ID, which is the default source, or through a .csv file that you as an admin upload.
 
 This article talks about the second option: uploading a .csv file.
 
 >[!Important]
 >Only use the following steps if this is the first time you’re uploading organizational data. If this isn’t your first upload, see [Upload organizational data (subsequent uploads)](upload-org-data-subsequent.md) to update previously uploaded data.
->
->For customers coming over from our legacy app:
->
-> If you're migrating from the legacy advanced insights app, and are uploading organizational data to Viva Insights for the first time ever, we recommend *only* using the new app for data uploads. Using the new app prevents data inconsistency.
 
 ## Workflow
 
@@ -40,7 +36,7 @@ After the data successfully validates and processes, you're done with the overal
 
 To upload your .csv file, follow these steps:
 
-1. Open the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) admin experience.
+1. Open the [Viva Insights web app](https://go.microsoft.com/fwlink/?linkid=2201482) admin experience.
 1. On the **Data hub** page, go to the **.csv upload** card on the right side of the screen, below **Data source**.
     :::image type="content" source="../images/admin-data-upload-start.png" alt-text="Screenshot that shows .csv upload tile and Start option.":::
 1. Select **Start**.

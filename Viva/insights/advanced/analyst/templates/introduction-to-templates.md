@@ -1,5 +1,5 @@
 ---
-ms.date: 10/08/2024
+ms.date: 6/23/2025
 title: Introduction to Power BI templates in Microsoft Viva Insights
 description: Learn about Microsoft Viva Insights Power BI templates
 author: zachminers
@@ -16,7 +16,7 @@ audience: Admin
 
 # Power BI report templates
 
-The **Analysis** page in Microsoft Viva Insights includes a number of predefined Power BI templates that analysts can use to visually analyze workplace collaboration patterns and trends. A template prepopulates a custom query and selects the applicable Power BI charts to show the query results.
+The **Create analysis** page in the Viva Insights web app includes a number of predefined Power BI templates that analysts can use to visually analyze workplace collaboration patterns and trends. A template prepopulates a custom query and selects the applicable Power BI charts to show the query results.
 
 ## Requirements for analysts
 

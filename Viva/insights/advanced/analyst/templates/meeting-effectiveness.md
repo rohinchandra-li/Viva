@@ -1,5 +1,5 @@
 ---
-ms.date: 04/11/2025
+ms.date: 06/30/2025
 title: Meeting effectiveness report
 description: Learn how to use the Microsoft Viva Insights Power BI template to identify whether employees practice habits that lead to more effective meetings
 author: zachminers
@@ -40,7 +40,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
-1. In the Viva Insights analyst experience, select **Analysis**.
+1. In the Viva Insights analyst experience, select **Create analysis**.
 
 2. Under **Power BI templates**, navigate to **Meeting effectiveness** and select **Set up analysis**. To get more information about the Meeting effectiveness template before running your analysis, select **Learn more**.
 

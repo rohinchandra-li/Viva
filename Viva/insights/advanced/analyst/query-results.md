@@ -1,7 +1,7 @@
 ---
-ms.date: 10/10/2024
+ms.date: 6/30/2025
 title: Access query results and modify existing queries
-description: Learn how to access query results in the advanced insights app
+description: Learn how to access query results in the Viva Insights web app
 author: zachminers
 ms.author: v-zachminers
 ms.topic: how-to
@@ -16,7 +16,7 @@ audience: Admin
 
 # Access query results and modify existing queries
 
-In the advanced insights app's Analyst experience, the **Query results** page lists all the results available for your organization. In addition to seeing basic information about each query, use this page to:
+In the Viva Insights web app's Analyst experience, the **Analysis results** page lists all the results available for your organization. In addition to seeing basic information about each query, use this page to:
 
 * Create a copy of (clone) a query.
 * Edit, rename, and delete a query.
@@ -33,7 +33,7 @@ To view, download, rename, edit, delete, favorite, or clone query results, you n
 >[!Important]
 >Only the analyst who originally ran the query can edit, rename, or delete its results. Other analysts in the organization can view, favorite, and clone results.
 
-## To use the query results page
+## To use the Analysis results page
 
 > [!VIDEO 1e8cde4f-f314-44e7-95ec-120eed5764f1]
 
@@ -99,7 +99,7 @@ If you ran a query and want it to recur on a certain schedule, you can set the *
 
 ### More options
 
-When you select the **More options** ellipses—located in the far-right column of the **Query results** page—you’ll see a few different options based on whether you ran the query or are another analyst in the organization: **Edit query name**, **Edit query**, **Clone query**, **Favorite**, and **Delete query**.
+When you select the **More options** ellipses—located in the far-right column of the **Analysis results** page—you’ll see a few different options based on whether you ran the query or are another analyst in the organization: **Edit query name**, **Edit query**, **Clone query**, **Favorite**, and **Delete query**.
 
 :::image type="content" source="../images/query-results-contextual-menu.png" alt-text="Screenshot that shows the More options contextual menu.":::
 
@@ -169,7 +169,7 @@ When you define a query, you select metrics and employee attributes. After the q
 
 ##### Download and import results in Excel
 
-1.	In **Query results**, next to the results you want, select the CSV icon.
+1.	In **Analysis results**, next to the results you want, select the CSV icon.
 2.	Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
 3. Open the extracted .csv file using Excel. 
 
@@ -182,7 +182,7 @@ Here's an example of a results file:
 
 1.	In Power BI Desktop, select **Get Data**.
 2.	Select **Online Services**, select **Viva Insights**, and then select **Connect**.
-3.	In the **Analyst > Query results** page, find your query and select **Copy link**.
+3.	In the **Analysis results** page, find your query and select **Copy link**.
     >[!Note]
     >The link contains two pieces of information: the partition identifier and the query identifier, which are separated by a slash.
 

@@ -1,7 +1,7 @@
 ---
-ms.date: 04/1/2025
+ms.date: 07/7/2025
 title: Data quality in the analyst experience
-description: Learn about organizational data in the Analyst experience of the Microsoft Viva Insights advanced insights app.
+description: Learn about organizational data in the Analyst experience of the Microsoft Viva Insights web app.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: how-to
@@ -31,17 +31,17 @@ Viva Insights uses *coverage* to determine low-quality attributes. Coverage is t
 
 In organizational data files, each column header contains attribute names, and each row within those columns contains attribute values. If a column has no blank rows, that attribute has *high coverage*. If a column has too many blank rows, that attribute has *low coverage*. Attributes with less than 30% coverage are considered *low-quality*. Similar to missing insights, when data is of low quality, related insights are of low quality, too.
 
-In the image below, the attribute on the left, **Organization**, has high coverage. The attribute on the right, **TimeZone**, has low coverage. If an admin uploaded this data to the advanced insights app, Viva Insights would consider **TimeZone** to be a low-quality attribute.
+In the image below, the attribute on the left, **Organization**, has high coverage. The attribute on the right, **TimeZone**, has low coverage. If an admin uploaded this data to the Viva Insights web app, Viva Insights would consider **TimeZone** to be a low-quality attribute.
 
 :::image type="complex" source="../images/analyst-quality-attributes-smaller.png" alt-text="Screenshot that shows a full-coverage attribute and a low-coverage attribute."lightbox="../images/analyst-quality-attributes2.png":::
    Screenshot of an upload file that shows two attributes: Organization and TimeZone. Organization has values for all 19 displayed rows. TimeZone only has values for 6 displayed rows.
 :::image-end:::
 
-### To view data quality
+## To view data quality
 
-Two pages in the advanced insights app inform you about your data quality: **Data hub** and **Organizational data**. You can get to these pages by selecting them from the app's left pane.
+Two pages in the Viva Insights web app inform you about your data quality: **Data hub** and **Organizational data**. You can get to these pages by selecting them from the app's left pane.
 
-#### On the Data hub
+### Data hub
 
 Use the **Data hub** page to view the number of:
 
@@ -52,9 +52,9 @@ Use the **Data hub** page to view the number of:
 
 You can also view the percentage of insights displayed in Viva Insights based on the total number of possible insights. When your admin adds more organizational data, more insights become available and this percentage increases.
 
-If fields are missing from your uploaded data, you'll find them in a list beneath the **Missing or low-quality insights and data fields** header. Select a missing insight to see its related data fields, and vice versa. To remove an insight from this list, your admin will need to upload the related data field(s) to the advanced insights app.
+If fields are missing from your uploaded data, you'll find them in a list beneath the **Missing or low-quality insights and data fields** header. Select a missing insight to see its related data fields, and vice versa. To remove an insight from this list, your admin will need to upload the related data field(s) to the Viva Insights web app.
 
-#### On the Organizational data page
+### Organizational data page
 
 Use this page to view attribute-specific information, including:
 
@@ -63,7 +63,17 @@ Use this page to view attribute-specific information, including:
 * **Employees with this field**, which shows how many employees in your organizational data have a value for this attribute.
 * **Unique values**, which shows how many values for the attribute are unique.
 
-### To contact your admin 
+### Manager hierarchy 
+
+This metric improves the reliability of the **ManagerId** attribute by identifying specific types of data quality issues related to manager data for your organization. This metric only appears if data quality issues are found, and you can find it on the **Data quality** page. The metric provides a count of two types of data quality issues:  
+
+* **Unmatched ManagerIDs**: The number of listed managers who don't exist in your Microsoft Entra ID data. This count only appears if your organization uses Entra ID as a data source.
+
+* **Circular loops**: The number of people in a group that does not report up to a top-level manager.
+
+:::image type="content" source="../images/manager-hierarchy-metric.png" alt-text="Illustration that shows the manager hierarchy metric.":::
+
+## To contact your admin 
 
 To address the data-quality errors and warnings we explain below—or to address missing insights on the **Data hub**—you might need to have your admin re-upload organizational data. The **Contact admin** page provides a list of your organization’s admins and their contact information, and also provides a button to directly send them an email. Reach the **Contact admin** page on the app's left pane.
 
@@ -136,7 +146,6 @@ If your query has low-quality supplemental attributes, or if supplemental employ
 
 ### Data-quality notifications in query results
 
-On the **Query results** page, you might notice warnings next to your query's name. These warnings might crop up for a few reasons. Maybe you ran a query knowing that it used low-quality attributes. Or, your query might not have had any low-quality attributes at the time you ran it, but after a recent data upload, the quality of some attributes decreased.
+On the **Analysis results** page, you might notice warnings next to your query's name. These warnings might crop up for a few reasons. Maybe you ran a query knowing that it used low-quality attributes. Or, your query might not have had any low-quality attributes at the time you ran it, but after a recent data upload, the quality of some attributes decreased.
 
-If you find a data-quality warning, select the query's name or **View query**. The app will show which attributes are of low quality. 
-
+If you find a data-quality warning, select the query's name or **View query**. The app will show which attributes are of low quality.

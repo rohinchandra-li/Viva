@@ -3,7 +3,7 @@ title: "Microsoft 365 sign-in for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
 ms.date: 09/24/2024
 audience: Admin
@@ -24,7 +24,7 @@ description: "Choose the authentication method to use for Microsoft 365 and Viva
 Microsoft 365 sign-in lets users access Viva Engage with their Microsoft 365 identity. A single identity is preferable because:
   
 - You can easily [Manage Viva Engage users across their life cycle in Microsoft 365](manage-users-across-their-lifecycle.md), in addition to managing Viva Engage administrators in Microsoft 365.
-    
+
 - Users can navigate between Viva Engage and Microsoft 365 without signing in under a separate username and password. From Microsoft 365 Copilot, users can quickly switch back and forth between Viva Engage and Microsoft 365 services such as Outlook, SharePoint sites, and OneDrive for Business.
   
 ## How it works
@@ -50,27 +50,7 @@ You can choose to enforce Microsoft 365 sign-in for Viva Engage for all users in
   
 ## Use Viva Engage with other Microsoft 365 services
 
-Viva Engage integrates seamlessly with other services in Microsoft 365. For example, you can share [Stream or Microsoft 365 Video](https://techcommunity.microsoft.com/t5/microsoft-stream-blog/microsoft-stream-the-future-of-video-in-microsoft-365/ba-p/3969156) and [Group and share documents in Delve](https://support.microsoft.com/en-us/office/group-and-share-documents-in-delve-da0c5804-01ef-4edd-8b87-e576b19bef3e) with other users using Viva Engage. 
-  
-## Make Viva Engage the default enterprise social network in SharePoint
-
-By default, when users select **Conversations** in SharePoint, they see their SharePoint newsfeed (Outlook groups), rather than Viva Engage conversations. You can make Viva Engage the default enterprise social network in SharePoint. With this, when users select **Conversations** in SharePoint, they see their Viva Engage conversations, rather than the SharePoint newsfeed (Outlook groups).
-  
-> [!NOTE]
-> You must be a Microsoft 365 Global Administrator to make this change. For more information about permissions levels, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles). 
-  
-1. In Microsoft 365, go to **Admin** \> **SharePoint**.
-    
-2. Select **Settings**.
-
-3. Choose **Classic settings page**.
-    
-4. Under **Enterprise Social Collaboration**, choose **Use Yammer.com service**.
-  
-5. Select **Save**.
-
-  > [!NOTE]
-  > This change can take up to 30 minutes to complete. 
+Viva Engage integrates seamlessly with other services in Microsoft 365. For example, you can share [Stream or Microsoft 365 Video](https://techcommunity.microsoft.com/t5/microsoft-stream-blog/microsoft-stream-the-future-of-video-in-microsoft-365/ba-p/3969156) and [Group and share documents in Delve](https://support.microsoft.com/en-us/office/group-and-share-documents-in-delve-da0c5804-01ef-4edd-8b87-e576b19bef3e) with other users using Viva Engage.
   
 ## Frequently asked questions
 
@@ -81,11 +61,11 @@ A: Yes! Microsoft 365 identity can be used to access Viva Engage from any device
 **Q: Do users have to do anything to make this work?**
 
 A: Your network users should access Viva Engage once with their Microsoft 365 identity (this action connects the Microsoft 365 identity to Viva Engage). After this, users should sign in to Viva Engage again on all of their devices and apps.
-    
+
 **Q: I'm using Microsoft 365 SSO and the Microsoft 365 sign-in for Viva Engage, so what happens if Microsoft 365 is federated with an on-premises environment?**
 
 A: The Microsoft 365 sign-in for Viva Engage automatically respects any Microsoft 365 federation setting.
-    
+
 **Q: Can I combine Viva Engage networks in order to take advantage of Microsoft 365 sign-in for Viva Engage?**
 
 A: Yes, this is required as of October 16, 2018. For more information, see [Network migration: Consolidate multiple Viva Engage networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md).

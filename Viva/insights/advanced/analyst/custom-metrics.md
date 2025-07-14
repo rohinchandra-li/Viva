@@ -1,5 +1,5 @@
 ---
-ms.date: 03/25/2025
+ms.date: 06/30/2025
 title: Custom metrics in Viva Insights
 description: Learn about building and using custom metrics in Microsoft Viva Insights 
 author: zachminers
@@ -20,13 +20,13 @@ Metrics shape your query and help define what you want to know about your organi
 
 Before we get started, here are a few things to know about custom metrics:
 
-* In this release of the advanced insights app, you create custom metrics by duplicating existing metrics and changing their settings. In future releases, you’ll be able to create metrics from scratch and edit them directly.
+* You create custom metrics in the Viva Insights web app by duplicating existing metrics and changing their settings. In future releases, you’ll be able to create metrics from scratch and edit them directly.
 * Some metrics aren’t customizable, including focus and hybrid metrics. Metrics available to customize have ellipses (**...**) to the right of their metric name. When you select the ellipses, you’ll see options to **View** and **Clone**.
 
 ## How to customize a metric
 
 >[!Note]
-> You’ll customize metrics while you’re creating a query. Make sure you’re in the **Analysis** page of the advanced insights app and have selected either a Power BI template query, person query, or meeting query.
+> You’ll customize metrics while you’re creating a query. Make sure you're in the **Create analysis** page of the Viva Insights web app and have selected either a Power BI template query, person query, or meeting query.
 
 > [!VIDEO e7813086-8e47-42ec-91c0-138abfba7a96]
 

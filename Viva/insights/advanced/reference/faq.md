@@ -1,7 +1,7 @@
 ---
-ms.date: 05/2/2025
-title: Advanced insights FAQ
-description: Get answers to frequently asked questions about Microsoft Viva Insights' advanced insights app
+ms.date: 06/30/2025
+title: Advanced analysis FAQ
+description: Get answers to frequently asked questions about advanced analysis in the Viva Insights web app
 author: zachminers
 ms.author: v-zachminers
 ms.topic: faq
@@ -12,9 +12,9 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Advanced insights FAQ
+# Advanced analysis FAQ
 
-In this article, we address the most commonly asked questions about the analysis tools in Microsoft Viva Insights' advanced insights app. We've grouped these questions into the following sections:
+In this article, we address the most commonly asked questions about the analysis tools in the Viva Insights web app. We've grouped these questions into the following sections:
 
 * [Functionality and features](#functionality-and-features)
     * [Roles](#roles)
@@ -22,7 +22,7 @@ In this article, we address the most commonly asked questions about the analysis
     * [Language support](#language-support)
 * [Setup and configuration](#setup-and-configuration)
 * [Organizational data](#organizational-data)
-* [Use advanced insights](#use-advanced-insights)
+* [Use advanced analysis](#use-advanced-analysis)
     * [Meeting exclusions](#meeting-exclusions)
     * [Data validation, verification, and use](#data-validation-verification-and-use)
     
@@ -36,14 +36,14 @@ Refer [here](../analyst/query-results.md#faqs) for frequently asked questions an
 
 A1. No. Viva Insights is a collaboration analysis tool for analyzing behavior and network patterns.
 
-#### Q2. How do personal, manager, leader, and advanced insights differ?
+#### Q2. How do personal, manager, leader, and advanced analysis tools differ?
 
 A2.
 
 * Personal and private insights are for individual use only.
 * Manager insights are for people managers or team leads.
 * Leader insights are for business leaders.
-* Advanced insights are for analysts to run top-down analysis on advanced insights with aggregated and de-identified metrics.
+* Advanced analysis is for analysts to run top-down analysis with aggregated and de-identified metrics.
 
 ### Privacy and compliance
 
@@ -51,9 +51,9 @@ A2.
 
 A1. Initially 13 months' worth of data is collected and processed for Viva Insights. Through weekly refreshes, the system continues to increase this history until 27 months’ worth of data is collected. As a Microsoft customer, you can file a request, such as for security reasons, to provide Viva Insights with less than this default amount; in that case, the minimum amount that can be collected is one month.
 
-#### Q2. Does advanced insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
+#### Q2. Does advanced analysis support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
 
-A2. Advanced insights are not currently available in data cloud environments that Microsoft maintains for government agencies.
+A2. Advanced analysis isn't currently available in data cloud environments that Microsoft maintains for government agencies.
 
 #### Q3. How does Viva Insights adhere to regional data storage and processing requirements (such as those required by GDPR)?
 
@@ -64,9 +64,9 @@ A3. Viva Insights stores and processes customer data in a compliant location as 
 
 ### Language support
 
-#### Q1. Can I use the advanced insights app in a language other than English?
+#### Q1. Can I use the Viva Insights web app in a language other than English?
 
-A1. Yes, you can use the webapp in languages other than English. There are a few features, though, that are available in English only: system-reserved names for employee attributes and meeting attributes. We plan to translate these features in the future.
+A1. Yes, you can use the app in languages other than English. There are a few features, though, that are available in English only: system-reserved names for employee attributes and meeting attributes. We plan to translate these features in the future.
 
 #### Q2. Can I upload an organizational data file that has non-English words or letters?
 
@@ -84,9 +84,9 @@ A3. Yes. You can use filters in queries that include:
 
 ### Setup and configuration
 
-#### Q1. What do I need to do to enable advanced insights?
+#### Q1. What do I need to do to enable advanced analysis?
 
-A1. To enable advanced insights for your organization, you'll need to:
+A1. To enable advanced analysis for your organization, you'll need to:
 
 * Assign licenses. 
 * Assign roles.
@@ -99,26 +99,26 @@ Optionally, after you sign in, you can:
 For details about setup, refer to the [Setup checklist](../setup-maint/setup-overview.md).
 
 >[!Important]
-> For the advanced insights app to run, at least 50 assigned Viva Insights licenses are required. For more information, refer to [Assign licenses overview](../setup-maint/assign-licenses.md).
+> For advanced analysis in the Viva Insights web app to run, at least 50 assigned Viva Insights licenses are required. For more information, refer to [Assign licenses overview](../setup-maint/assign-licenses.md).
 
 #### Q2. Is the number of analyst role assignments limited?
 
 A2. No limit is imposed for **Insights Analyst** roles.
 
- #### Q3. Our admin assigned the required licenses. Why can't Insights Analysts access the advanced insights app?
+ #### Q3. Our admin assigned the required licenses. Why can't Insights Analysts access advanced analysis tools?
 
 A3. It might take a few days for Viva Insights to process Microsoft 365 collaboration data and for assigned users to get the right permissions. Most customers are able to access the app four to five days after the Insights admin assigns licenses.
 
 If you're getting an error, you might want to ask the following questions:
 
-* **Do I have the right role assigned?** Before you can access the advanced insights app, you'll need a Viva Insights-specific role assigned to you in the Microsoft 365 admin center. Analysts need the **Insights Analyst** role. You might need to ask your organization Microsoft 365 admin to check if the role was assigned to you in the admin center. Learn more about role assignment in [Assign user roles for Viva Insights](../setup-maint/assign-user-roles.md).
+* **Do I have the right role assigned?** Before you can access advanced analysis, you'll need a Viva Insights-specific role assigned to you in the Microsoft 365 admin center. Analysts need the **Insights Analyst** role. You might need to ask your organization Microsoft 365 admin to check if the role was assigned to you in the admin center. Learn more about role assignment in [Assign user roles for Viva Insights](../setup-maint/assign-user-roles.md).
 
     >[!Note]
     >Before they can use the app, customers with Privileged Identity Management might need to complete a few additional steps to activate their role. Refer to [Assign Microsoft Entra roles in Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) for more information.
 
 * **With my role, can I access this feature?** Only certain roles can access some parts of the app. To learn which features are available for which role, refer to [User roles](../setup-maint/user-roles.md#feature-access).
 
-* **Do enough people have licenses assigned to them?** For analysts to access advanced insights, your admin team needs to assign a certain number of Viva Insights licenses to people in your organization. For most customers, this number must be at least 50.
+* **Do enough people have licenses assigned to them?** For analysts to access advanced analysis, your admin team needs to assign a certain number of Viva Insights licenses to people in your organization. For most customers, this number must be at least 50.
 
 ### Organizational data
 
@@ -146,7 +146,7 @@ A4. While Microsoft Entra ID is the default data source, a manual file upload is
 
 A5. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights admins and analysts can view metadata about the organizational data on the **Data quality** page, but they can’t see how the attribute values map to individual people.
 
-### Use advanced insights
+### Use advanced analysis
 
 #### Meeting exclusions
 
@@ -209,7 +209,7 @@ To ensure accurate tracking of meeting hours, it's important for attendees to re
 
 ##### Q7. Why don't I see data from this week in my analyses?
 
-A7. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. During the first part of each week, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday.
+A7. Microsoft 365 collaboration data is updated weekly for advanced analysis and other applicable analysis. During the first part of each week, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday.
 
 ##### Q8. Why don't I see last week's data in my analyses?
 
@@ -218,7 +218,7 @@ A8. If you expect your analysis to include last week's collaboration data and yo
 
 ### Error screens 
 
-#### Q1. I'm getting an error screen when I try to access advanced insights. Why?
+#### Q1. I'm getting an error screen when I try to access advanced analysis. Why?
 
 We've compiled a few error screens you might get in our [error reference document](errors.md), along with what might be causing them.
 

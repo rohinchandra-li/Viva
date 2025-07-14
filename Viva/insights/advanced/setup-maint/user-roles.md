@@ -1,5 +1,5 @@
 ---
-ms.date: 01/06/2025
+ms.date: 06/23/2025
 title: Roles in Viva Insights
 description: Learn which roles can access which features in Viva Insights
 author: zachminers
@@ -32,17 +32,17 @@ The following matrix shows which roles can access which features.
 
 | Feature |  Page  | Description | Insights Administrator | Insights Analyst | Manager<sup>1</sup>|
 |---|-----|---|--|---|---|
-| Viva Insights app – organization insights|  |   |   |   |  | 
+| Viva Insights Teams app – organization insights|  |   |   |   |  | 
 |   |  (throughout the app) | Depending on your role<sup>2</sup>, view group insights about your team or highlights about your company.  |   |  | X |
-| Viva Insights advanced insights app |  |   |   |   |    | 
-|   |  **Analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |  |
-|   |  **Query results** | View query results |   | X |  |
-|   |  **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>3</sup>|  |
+| Viva Insights web app |  |   |   |   |    | 
+|   |  **Advanced analysis** | Landing page for analysts. View recent queries, Power BI templates, and build custom queries.  |   | X |  |
+|   |  **Analysis results** | View query results |   | X |  |
+|   |  **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | |  |
 |   |  **Privacy settings** | Manage privacy settings  | X |   |   |
 |   |  **Partitions** | Create and manage partitions  | X |   |   |
 |   |  **Manager settings** | Turn on/off organization insights that appear in the Viva Insights app in Teams and on the web; select eligible managers for group insights | X |   |   |
 
-1. Manager isn't technically a role that can be assigned. The Insights Administrator can enable managers access to their organization insights through [Manager settings](./manager-settings.md) within the advanced insights app. 
+1. Manager isn't technically a role that can be assigned. The Insights Administrator can enable managers access to their organization insights through [Manager settings](./manager-settings.md) within the Viva Insights web app. 
 
 2. Managers can access aggregated insights about their team. Employees who have delegate access can view insights about their company. [Learn more about delegate access](..//..//org-team-insights/delegate-access.md).
 

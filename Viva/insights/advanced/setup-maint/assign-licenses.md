@@ -1,5 +1,5 @@
 ---
-ms.date: 03/18/2025
+ms.date: 06/23/2025
 title: Assign licenses
 description: Assign Viva Insights licenses to users in your organization
 author: zachminers
@@ -18,6 +18,9 @@ audience: Admin
 
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, refer to [Environment requirements](environment-requirements.md).
+
+>[!Important]
+> Employees who have Microsoft 365 Copilot licenses assigned are automatically assigned a Viva Insights license.
 
 When you assign somebody a license for Viva Insights, you do two things:
 
@@ -62,7 +65,7 @@ If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you
 
 ## When newly licensed users show up in data
 
-The data that the advanced insights app uses refreshes once a week, during the first part of the week. This data includes the data records for licensed users. So, if you add a user license, it's possible that person won't show up in Viva Insights data until the following week. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
+The data that the Viva Insights web app uses refreshes once a week, during the first part of the week. This data includes the data records for licensed users. So, if you add a user license, it's possible that person won't show up in Viva Insights data until the following week. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
 
 * The user is represented in the user counts that are shown in **Organizational data > Data quality**.
 * When analysts run [queries](../analyst/person-query.md), results include data about this user's activities.

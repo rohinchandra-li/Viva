@@ -1,7 +1,7 @@
 ---
-ms.date: 11/14/2023
-title: Viva Insights advanced insights glossary 
-description: This article provides a glossary of terms for the Microsoft Viva Insights advanced insights app. 
+ms.date: 6/30/2025
+title: Viva Insights advanced analysis glossary 
+description: This article provides a glossary of terms for advanced analysis in the Microsoft Viva Insights web app. 
 author: zachminers
 ms.author: v-zachminers
 ms.topic: glossary
@@ -12,14 +12,13 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Glossary for advanced insights
+# Glossary for advanced analysis
 
-The following are terms and concepts used in the advanced insights app as part of Microsoft Viva Insights. This glossary excludes query metric definitions.
+The following are terms and concepts used for advanced analysis in the Viva Insights web app. This glossary excludes query metric definitions.
 
 | Term | Definition |
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a name="active-employee-define"></a>
-Active employee | An employee who has sent at least one email or instant message during the time period in question (such as a time period that was defined for a query) |
+|------|-------|
+| <a name="active-employee-define"></a> Active employee | An employee who has sent at least one email or instant message during the time period in question (such as a time period that was defined for a query) |
 |  <a name="adjusted-meeting-hours-define"></a> Adjusted meeting hours | An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours. |
 |  <a name="aggregation-define"></a> Aggregation | Aggregation means compiling data from multiple individuals or sources. The more individuals or sources whose data is used, the more difficult it is to identify personal data. Aggregation is one means of achieving de-identification. |
 |  <a name="attended-define"></a> Attended | A person attended a meeting if they either accepted the meeting and their meeting shows as “Busy” in Outlook, joined on Teams, or were the organizer.   |

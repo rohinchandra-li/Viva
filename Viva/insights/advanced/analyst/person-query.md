@@ -1,7 +1,7 @@
 ---
-ms.date: 11/07/2024
+ms.date: 6/30/2025
 title: Person query
-description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a custom person query in the Microsoft Viva Insights web app
 author: zachminers
 ms.author: v-zachminers
 ms.topic: how-to
@@ -26,7 +26,7 @@ audience: Admin
 
 ## Overview
 
-Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Person query** page.
+Each of these steps takes place within one section of the [Viva Insights web app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Create analysis > Create custom query > Person query** page. You can also set up your query using Microsoft 365 Copilot. [Learn how](./copilot-query.md).
 
 >[!Note]
 >If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
@@ -78,7 +78,7 @@ Under **Query setup**:
 
 1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
 
-1. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described later in this section (filter, search, and groupings) select the metrics you want to use in the query, then select **Add to query**. [Learn more about advanced insights metrics](../../advanced/reference/metrics.md).
+1. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described later in this section (filter, search, and groupings) select the metrics you want to use in the query, then select **Add to query**. [Learn more about advanced analysis metrics](../../advanced/reference/metrics.md).
    
    The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
    
@@ -179,7 +179,7 @@ Select the **Run** button in the screen’s upper right to run the query.
 
 ### To access your query results
 
-After your query runs, access its results on the **Query results** page, where you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
+After your query runs, access its results on the **Analysis results** page, where you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
 
 ## Example person query for after-hours communication
 
@@ -217,7 +217,7 @@ Here’s how you might do that:
    1. From the right pane, select **PopulationType**.
    1. Select the **Add to query** button.
 1. Run the query. On the upper right of the screen, select the **Run** button.
-1. After the query successfully runs, find its results in the **Query results** page. To:
+1. After the query successfully runs, find its results in the **Analysis results** page. To:
    1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
    1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
 

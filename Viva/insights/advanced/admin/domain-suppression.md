@@ -9,12 +9,12 @@ ms.collection: viva-insights-advanced
 ms.service: viva-insights
 manager: ablubetk
 audience: Admin
-ms.date: 04/2/2025
+ms.date: 06/23/2025
 ---
 
 # Domain suppression
 
-When you suppress a domain in Microsoft Viva Insights, you prevent data associated with people in that domain from showing in analyst experiences. You can specify which domains you want to suppress on the Privacy settings page in the advanced insights app.
+When you suppress a domain in Microsoft Viva Insights, you prevent data associated with people in that domain from showing in analyst experiences. You can specify which domains you want to suppress on the Privacy settings page in the Viva Insights web app.
 
 ## When to use domain suppression
 
@@ -24,7 +24,7 @@ By suppressing sensitive domains through the **Privacy settings** page, analysts
 
 ## How to change domain suppression settings
 
-1.	Go to the **Privacy settings** page in the advanced insights app.
+1.	Go to the **Privacy settings** page in the Viva Insights web app.
 2.	Under **Suppress domains**, type in the first domain you want to suppress. Select the plus (**+**) icon to add more.
 3.	Select **Save changes**. 
 

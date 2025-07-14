@@ -1,5 +1,5 @@
 ---
-ms.date: 05/19/2025
+ms.date: 7/8/2025
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -14,12 +14,14 @@ audience: Admin
 
 # Prepare an organizational data file upload
 
-The advanced insights app can get organizational data in one of two ways: through Microsoft Entra ID, which is the default setting, or through an organizational data file that you as an admin upload. In this article, we discuss the second option, the organizational data file. Read on to find out what you as an admin need to do to identify, gather, and structure data before uploading organizational data.
+The Viva Insights web app can get organizational data in one of two ways: through Microsoft Entra ID, which is the default setting, or through an organizational data file that you as an admin upload. In this article, we discuss the second option, the organizational data file. Read on to find out what you as an admin need to do to identify, gather, and structure data before uploading organizational data.
 
-To learn about organizational data in general, find out which data Microsoft Entra ID automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the advanced insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md).
+To learn about organizational data in general, find out which data Microsoft Entra ID automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the Viva Insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md).
 
 >[!Important]
 > You can use **both** Entra and data file uploads simultaneously if you enable "parallel" data ingestion. Then later, if you decide to stop using Entra for certain attributes, you can revert back to using only manual data files. [Learn more](./entra-plus-csv-upload.md).
+
+> [!VIDEO c51721cc-0400-4b36-9e49-69c8e801c465]
 
 ## Prepare organizational data
 
@@ -29,7 +31,7 @@ When you’re ready to start working with an organizational data file, the follo
 1. [Know what data to include](#step-2---know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose attributes that best serve your analytical purposes.
 1. [Get an export of organizational data](#step-3---get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
 1. [Structure the organizational data](#step-4---structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the .csv file that you upload.
-1. [Upload the organizational data file](#step-5---upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
+1. [Upload the organizational data file](#step-5---upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the Viva Insights web app where, after validation and processing, it becomes available for analysis.
 
 ### Step 1 - Identify trends that you want to analyze
 
@@ -74,9 +76,9 @@ Finally, you might want to consider tying collaboration behavior patterns to emp
 
 ### Step 2 - Know what data to include
 
-To get full functionality from the advanced insights app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
+To get full functionality from the Viva Insights web app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
-Examples of organizational data include job family, job role, organization, and line of business. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
+Examples of organizational data include job family, job role, organization, and line of business. This data is supplied to the Viva Insights web app at the individual level, which means that these attributes provide context to each person in the dataset.
 
 #### Employees to include
 
@@ -90,7 +92,7 @@ If you can't include every person in your organization, the minimum to include i
 
 It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: data that includes the right people and includes the right attributes for those people.
 
-The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Analysis** page. So, employees whose data is missing is excluded from the analyses that analysts perform.
+The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Create analysis** page. So, employees whose data is missing is excluded from the analyses that analysts perform.
 
 >[!Important]
 >Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, see [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
@@ -113,6 +115,8 @@ After you get this data, you'll need to structure it for successful processing a
 ### Step 4 - Structure the organizational data
 
 After you get your exported data, structure it into the correct format.
+
+> [!VIDEO d5ed2fa9-3806-4681-823f-e112d11d5aa5]
 
 #### Add required, reserved optional, and custom attributes
 
@@ -166,7 +170,7 @@ For more information about attributes, see [Attribute reference](#attribute-refe
 
 ### Step 5 - Upload the organizational data file
 
-After you create a source .csv file, you can upload it to the advanced insights app through the **Organizational data page > Data hub** or **Data connections** tab.
+After you create a source .csv file, you can upload it to the Viva Insights web app through the **Organizational data** page > **Data connections** or **Data hub** page.
 
 If this is the first time you upload organizational data, refer to [Upload organizational data (first upload)](upload-org-data-first.md). If this isn't the first time, refer to [Upload organizational data (subsequent uploads)](./upload-org-data-subsequent.md). 
 
@@ -177,7 +181,6 @@ After your data successfully uploads, the app performs more validation and proce
 It's recommended that you upload employee data at least once a month to keep data fresh and analysis relevant. Soon after an employee data upload has succeeded, the updated data becomes available for users to see as insights in the app.
 
 ##### Supplying data over a time period
-
 
 By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file.
 
@@ -265,7 +268,6 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
     * Select **04/20/2024** from the dropdown and not **04/25/2024** or **05/10/2024**. 
     * This ensures that the email address on 04/20/2024 (for example, BoSmith@constoso.com) is used to fetch EntraID "A" for all past dates.
 
-
 ## Enable partial data ingestion 
 
 To enable partial data ingestion, select **Upload valid rows and exclude rows with invalid data**. This setting will only upload rows that include valid values, and will show warnings for the rows that were not ingested due to errors. This setting is off by default.
@@ -274,10 +276,9 @@ To enable partial data ingestion, select **Upload valid rows and exclude rows wi
 
 By default, your upload is automatically used for insights after it finishes processing. To prevent this, select **Review validation details before making data available**. By doing so, you can review the validation report and decide whether to make the data available *after* it validates. Select **Confirm to make data available**.  
 
-
 ## Attribute reference
 
-This section contains information about the attributes that you use in the organizational data files uploaded to the advanced insights app.
+This section contains information about the attributes that you use in the organizational data files uploaded to the Viva Insights web app.
 
 >[!Note]
 >If you share data from Viva Insights with the Organizational Data in Microsoft 365 feature, some of the attributes listed below are shared. Any attribute, however, that contains **Microsoft_** will not be available in Viva Insights. [Learn more about Organizational Data in Microsoft 365](/viva/organizational-data#data-uploaded-from-viva-insights).

@@ -1,5 +1,5 @@
 ---
-ms.date: 04/11/2025
+ms.date: 06/30/2025
 title: Manager effectiveness report
 description: Learn how the Manager effectiveness PowerBI template from Microsoft Viva Insights helps you gain insight into the collaboration habits and effectiveness of your people managers.
 author: zachminers
@@ -32,7 +32,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
  
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
-1. In the Viva Insights analyst experience, select **Analysis**.
+1. In the Viva Insights analyst experience, select **Create analysis**.
 2. Under **Power BI templates**, navigate to **Manager effectiveness** and select **Set up analysis**. To get more information about the Manager effectiveness template before running your analysis, select **Learn more**.
 
  3. Under **Query setup**:
@@ -62,7 +62,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
  1. Under **Select which spotlight attributes you want to include in the query**, add at least one and up to five attributes to use as a legend for insights in the report. You’ll also be able to focus on a specific group of employees in the report. Insights for this group will be highlighted.
  1. Under **Select an attribute that indicates the employee’s engagement score**, you can optionally select an attribute that represents how engaged employees are. 
 1. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
- 1. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
+ 1. When your query results are ready, go to the **Analysis results** page and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
 
 ### Link report to query
 

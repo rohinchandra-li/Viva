@@ -19,6 +19,9 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 
 >[!Note]
+>Starting this month, we're integrating the Copilot Dashboard with advanced reporting functionality from Viva Insights. This experience provides broader access to Copilot Analytics reporting and is expected to reach all customers by mid-July. Our product documentation has been updated to reflect the enhanced product experience. [Learn more about the changes](https://techcommunity.microsoft.com/blog/viva_insights_blog/unifying-the-viva-insights-app-for-copilot-dashboard-and-advanced-reporting/4414666).
+
+>[!Note]
 >The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. Neither a paid Viva Insights license nor a Microsoft 365 Copilot license is required to view the dashboard. The analyzed population in the Copilot Dashboard includes all employees who have an assigned Copilot license. However, for tenants with at least 50 Copilot licenses or tenants with at least 50 Viva Insights licenses, the dashboard includes full capabilities with metrics and advanced filters. [Learn more about which features are available based on your tenant’s assigned license](#feature-availability-based-on-licenses). 
 
 Microsoft 365 Copilot works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
@@ -27,7 +30,7 @@ The Microsoft Copilot Dashboard in Viva Insights helps organizations maximize th
 
 The dashboard covers the following categories of metrics: Readiness, adoption, impact, and sentiment. Metrics are aggregated at the tenant level or user level, depending on the licenses your tenant has. [See the table below for more information](#feature-availability-based-on-licenses).
 
-:::image type="content" source="images/copilot-dash-readiness-ga-03.png" alt-text="Screenshot that shows the Copilot Dashboard.":::
+:::image type="content" source="images/copilot-dashboard-home.png" alt-text="Screenshot that shows the Copilot Dashboard.":::
 
 >[!Note]
 >The Microsoft Copilot Dashboard is currently not available for national/regional cloud deployments including but not limited to Microsoft’s U.S. Government clouds and Office 365 operated by 21Vianet.
@@ -46,20 +49,11 @@ The types of insights and features provided by the dashboard vary depending on t
 |Less than 50 | N/A | Limited features: <br><br /><li>Readiness page<li>Adoption page with tenant-level metrics only<li>Sentiment with tenant-level survey results |
 
 
-## Access the dashboard in Viva Insights
+## Access the dashboard in the Viva Insights web app
 
 *Applies to: Employee users*
 
-If you have access to the Copilot Dashboard, you can find it in the [Teams or web app](https://insights.cloud.microsoft/#/CopilotDashboard). You must opt in to the Viva Insights app in Teams or on the web. Your admin can set users' access to Viva Insights using [these steps](../advanced/setup-maint/configure-personal-insights.md#prerequisites-defaults-and-privacy).
-
-1. Open the Teams app on desktop or the web. If you have the Viva Insights app pinned, select it from the left bar.
-
-   If you don’t have the Viva Insights app pinned, select the ellipses on the left. Then in the search field, enter **Microsoft Viva Insights**, and select it.
-
-2. On the left navigation panel, select **Copilot Dashboard**.
-
-3. Refer [here](#readiness) to learn more about the data in the dashboard.
-
+If you have access to the Copilot Dashboard, you can find it in the Viva Insights web app. On the left, select **Copilot Dashboard**. Your admin can set users' access to Viva Insights using [these steps](../advanced/setup-maint/configure-personal-insights.md#prerequisites-defaults-and-privacy).
 
 ### Delegate access to the dashboard 
 
@@ -81,7 +75,7 @@ For those qualifying tenants, only users who meet all of the following criteria 
 * Users who are assigned the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference#global-administrator) also have access to the Microsoft Copilot Dashboard
 
     >[!Note]
-    >If you are a Privileged Identity Management (PIM) enabled tenant, the Global Admins might not have access to the Copilot Dashboard. If you want to give Global Admins access to the Copilot Dashboard, add them explicitly using [these steps](../advanced/admin/manage-settings-copilot-dashboard.md#manage-access-for-individual-users-and-groups).
+    >If you are a Privileged Identity Management (PIM) enabled tenant, the Global Admins might not have access to the Copilot Dashboard. If you want to give Global Admins access to the Copilot Dashboard, add them explicitly using [these steps](../advanced/admin/manage-settings-copilot-dashboard.md#manage-access-to-the-viva-insights-web-app-for-individual-users-and-groups).
 
 The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they are not added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
@@ -194,7 +188,7 @@ The **Organization** filter corresponds to the Microsoft Entra ID data source fi
 
 Finally, the **Job function** filter will only show if your Insights admin uploads a .csv file with the organizational data attribute of **FunctionType** or your Global admin uploads a .csv file with the organizational data attribute of **JobDiscipline**. 
 
-* If your Insights admin uploads the file in the Advanced Insights app, they need to upload **FunctionType** attributes for you to see the **Job function** dropdowns.  
+* If your Insights admin uploads the file in the Viva Insights web app, they need to upload **FunctionType** attributes for you to see the **Job function** dropdowns.  
 
 * If your Global admin uploads the file in the Microsoft 365 admin center, the need to upload **Microsoft_JobDiscipline** attributes for you to see the **Job function** dropdown.
 
@@ -259,8 +253,8 @@ Group totals reflect all users based on the filtered group, including groups tha
 | Percentage of active Copilot users | The percentage of active Copilot users out of the number of Copilot licensed users for the given time period. |
 | Inactive Copilot users | The number of users who have a Copilot license and haven’t been active in Copilot in the last 28 days. |
 | Total Copilot actions taken | The total number of actions completed with Copilot by users with Copilot Chat or other in-app Copilot features. With automatically generated Copilot insights such as Intelligent Recap or auto-summarizations in Word, an action is only counted if the user viewed the results from Copilot, such as expanding the document summary. This metric might also include Copilot actions taken using Copilot features that are **not** available in the Copilot Dashboard or analyst workbench as standalone metrics. (Viva Insights' individual Copilot metrics don't provide a comprehensive view of *all* Copilot features and total actions taken.) |
-| Meetings summarized by Copilot | The number of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. |
-| Meeting hours summarized by Copilot | The number of hours of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. |
+| Meetings summarized by Copilot | The number of meetings summarized by Copilot. Each meeting summarized represents a meeting in which the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does **not** include meeting summaries accessed through Intelligent Recap.  |
+| Meeting hours summarized by Copilot | The number of hours of meetings summarized by Copilot. Each meeting summarized represents a meeting in which the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does **not** include meeting summaries accessed through Intelligent Recap.  |
 | Summarize meeting actions taken using Copilot | The number of times users summarized meetings using Copilot. Each action represents a user sending a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. |
 | Emails sent using Copilot | The number of emails sent with assistance from Copilot. |
 | Generate email draft actions taken using Copilot | The number of times users generated email drafts using Copilot. |
@@ -316,7 +310,7 @@ For each of these, we recommend allowing users to indicate whether or not they S
 
 **Upload tenant-level survey results through the Microsoft 365 admin center**
 
-Microsoft 365 global admins can upload aggregated survey results through Adoption Score in the Microsoft 365 admin center. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md#upload-aggregated-survey-results).
+Microsoft 365 global admins can upload aggregated survey results through Adoption Score in the Microsoft 365 admin center. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md#upload-aggregated-survey-results-for-the-dashboard).
 
 #### Impact page for companies with at least 50 assigned Copilot licenses
 
@@ -410,7 +404,7 @@ There are three categories of users:
 |  | Conflicting meeting hours  |  The number of meeting hours where users had overlapping meetings on their calendar. The count includes only the amount of time that overlaps. | 
 |  | Meeting hours |  The number of hours users spent in meetings with at least one other person during and outside of working hours.  |
 |   |  Multitasking meeting hours |  The number of hours users spent sending or reading emails or chats, posting or replying to Teams channels messages, or visiting Teams channels during a meeting or Teams call. | 
-|   | Meeting hours summarized by Copilot | Meeting hours summarized are calculated based on actual hours summarized, not a per action estimate. For example, if a user summarizes after a 1-hour meeting, they'll count 1 hour toward the total. If another user summarizes 15 minutes into the meeting, they'll count 15 minutes toward the total, resulting in an overall total of 1 hour, 15 minutes. This metric does *not* include meeting summaries accessed through Intelligent Recap. |
+|   | Meeting hours summarized by Copilot | Meeting hours summarized are calculated based on actual hours summarized, not a per action estimate. For example, if a user summarizes after a 1-hour meeting, they'll count 1 hour toward the total. If another user summarizes 15 minutes into the meeting, they'll count 15 minutes toward the total, resulting in an overall total of 1 hour, 15 minutes. This metric does **not** include meeting summaries accessed through Intelligent Recap.  |
 | **Chat** | Chat conversation summaries created by Copilot |  The number of times users summarized chats and channel conversations in Teams using Copilot.  | 
 |   | Chats sent | The number of chat messages sent by users using Copilot. | 
 |   | Chat conversations summarized by Copilot | The number of chats and channel conversations summarized by Copilot.  | 
@@ -455,7 +449,7 @@ With a Viva Insights subscription, this section of the dashboard also lets you e
 
 :::image type="content" source="images/copilot-dashboard-sentiment-heatmap.png" alt-text="Screenshot that shows the Sentiment heat map.":::
 
-#### Upload group-level survey results with the advanced insights app
+#### Upload group-level survey results with the Viva Insights web app
 
 *Applies to: Viva Insights admin* 
 
@@ -518,7 +512,7 @@ For questions that did not receive an employee response, such as Question 3 for 
 
 For additional guidance on how to format your .csv file, refer to this example formatted .csv: [Impact Dashboard survey sample file](https://go.microsoft.com/fwlink/?linkid=2260529).
 
-Once you’ve formatted the .csv file accordingly, use these steps to upload it:
+Once you've formatted the .csv file accordingly, use these steps to upload it:
 
 1. In the Viva Insights analyst experience, select **Survey data**.
 
@@ -564,7 +558,7 @@ Differences in the data are often caused by at least one of the following:
 * Data in the Copilot Dashboard is aggregated to meet a minimum privacy threshold.
 
 **Q3. Where can users access the Microsoft Copilot Dashboard?**
-Employees can view the dashboard in the Viva Insights Teams or web app.
+Employees can view the dashboard in the Viva Insights web app.
 
 **Q4. How long after enablement can users access the Copilot Dashboard?**
 Users can access the dashboard less than 24 hours after being enabled.
@@ -639,7 +633,7 @@ The values under the first two columns (Group 1 & Group 2) are calculated using 
 If you notice a slight difference in the number of Copilot licensed employees or the number of active Copilot users between the readiness and adoption pages, it might be because the adoption page:
 
 * Uses a slightly different date range
-* Excludes users because an admin created an [exclusion list](..//advanced/admin/manage-settings-copilot-dashboard.md#create-an-exclusion-list-hide-users-from-aggregates)
+* Excludes users because an admin created an [exclusion list](..//advanced/admin/manage-settings-copilot-dashboard.md#create-an-exclusion-list-for-the-dashboard-hide-users-from-aggregates)
 * Excludes users with licenses that are assigned to disabled mailboxes. [Learn more about disabled mailboxes](/exchange/recipients/disconnected-mailboxes/connect-disabled-mailboxes).
 * Excludes users with licenses that are assigned to disabled accounts
 

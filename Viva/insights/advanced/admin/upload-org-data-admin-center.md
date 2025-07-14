@@ -1,5 +1,5 @@
 ---
-ms.date: 04/23/2025
+ms.date: 06/30/2025
 title: Upload and maintain data through the Microsoft 365 admin center
 description: Learn how to upload organizational data using the Microsoft 365 Admin Center instead of Viva Insights.
 author: zachminers
@@ -25,7 +25,7 @@ Organizational data in Microsoft 365 centralizes organizational data uploads acr
 >[!Important]
 >Viva Insights admins have a six-month transition period to migrate to the new platform. The transition will occur in three waves, with all Viva Insights tenants assigned to one of the waves.
 >
->Once your tenant(s) migrate to Organizational data in Microsoft 365, only Global admins can upload and manage data through the Microsoft 365 admin center, [here](https://go.microsoft.com/fwlink/?linkid=2298902). Managing data uploads through the Viva Insights Analyst Workbench will no longer be available.
+>Once your tenant(s) migrate to Organizational data in Microsoft 365, only Global admins can upload and manage data through the Microsoft 365 admin center, [here](https://go.microsoft.com/fwlink/?linkid=2298902). Managing data uploads through the Viva Insights web app will no longer be available.
 
 ## 1. Prepare your organizational data
 
@@ -56,15 +56,15 @@ To upload data, follow the Organizational data in Microsoft 365 wizard to comple
 >[!Note]
 >Uploading files larger than 25 MB using Organizational data in Microsoft 365 requires the use of SharePoint. [Learn how to upload data through SharePoint](/viva/import-orgdata#upload-the-file-to-sharepoint).
 
-## Other capabilities remaining in the Advanced Analytics app
+## Other capabilities remaining in the Viva Insights web app
 
-While uploading and managing organizational data must now be done in the Microsoft 365 admin center, all other tasks must still be done in the Advanced Analytics app such as creating [data partitions](../admin/partitions.md), uploading all other types of data such as [sentiment data](../../org-team-insights/copilot-dashboard.md#upload-group-level-survey-results-with-the-advanced-insights-app), business outcome data, and managing your Viva Insights [admin settings](../admin/admin-center.md).
+While uploading and managing organizational data must now be done in the Microsoft 365 admin center, all other tasks must still be done in the Viva Insights web app such as creating [data partitions](../admin/partitions.md), uploading all other types of data such as [sentiment data](../../org-team-insights/copilot-dashboard.md#upload-group-level-survey-results-with-the-viva-insights-web-app), business outcome data, and managing your Viva Insights [admin settings](../admin/admin-center.md).
 
 ## Use Viva Insights for data uploads after transition
 
 If you've transitioned to the Microsoft 365 admin center for organizational data uploads, you can switch back to using Viva Insights if you'd like. You'll be able to switch back until all tenants have been migrated to the Microsoft 365 admin center. To do so, use the process below.
 
-1. In the advanced insights app, select **Organizational data** on the left.
+1. In the Viva Insights web app, select **Organizational data** on the left.
 
 2. Select **Undo migration**.
 
@@ -88,9 +88,9 @@ There's no impact on your organization’s existing data in Viva Insights. Every
 
 No delays are expected, and you shouldn't experience any break in Viva Insights seeded, Copilot dashboard, or premium Viva Insights capabilities. The usual time to process your data uploads will still apply. While no system downtime is expected, you might need some time to get familiar with the Microsoft 365 admin center platform.
 
-**Will I still be able to use the Viva Insights Advanced Analytics app to upload data?**
+**Will I still be able to use the Viva Insights web app to upload data?**
 
-No, you won’t have access to the organizational data upload feature in the Viva Insights app. All other features you use in Viva Insights will still be available.
+No, you won't have access to the organizational data upload feature in the Viva Insights app. All other features you use in Viva Insights will still be available.
 
 **I have more questions that haven’t been answered, or I need to make a request to the Viva Insights team.**
 

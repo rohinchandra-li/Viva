@@ -24,11 +24,11 @@ description: "Create an auto-acceleration policy to improve Microsoft 365 sign-i
 
 # Improve Microsoft 365 sign-in for Viva Engage with auto-acceleration policy
 
-To improve the Microsoft 365 sign-in experience for Viva Engage, use the Auto-acceleration policy to accelerate directly to the ADFS federated domain, bypassing the Office 365 sign-in page. 
+To improve the Microsoft 365 sign-in experience for Viva Engage, use the Auto-acceleration policy to accelerate directly to the Active Directory Federation Services (ADFS) federated domain, bypassing the Office 365 sign-in page. 
   
 ## Prerequisites
 
-- You must be a Microsoft 365 Global Administrator to run the PowerShell commands.
+- You must be a Microsoft 365 Application Administrator to run the PowerShell commands.
     
 - Download and install the [Azure Active Directory v2 PowerShell Module](https://www.powershellgallery.com/packages/AzureAD/2.0.2.16).
     
@@ -41,9 +41,6 @@ To improve the Microsoft 365 sign-in experience for Viva Engage, use the Auto-ac
     Save-Module -Name AzureAD -Path <path>
     ```
 
-   
-
-  
     ```powershell
     Install-Module -Name AzureAD
     ```
@@ -82,7 +79,7 @@ To improve the Microsoft 365 sign-in experience for Viva Engage, use the Auto-ac
     -    Displ`ayName BasicAutoAccelerationPolicy -Type HomeRealmDiscoveryPolicy
        ```
 
-4. Note the object-id of the policy you created:
+4. Note the `object-id` of the policy you created:
     ```powershell
     get-AzureADPolicy
     ```

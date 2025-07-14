@@ -1,5 +1,5 @@
 ---
-ms.date: 06/17/2024
+ms.date: 06/23/2025
 title: Use and configure the Admin Digest email
 description: Provides information to admins about the Viva Insights Admin Digest email, and how to unsubscribe.
 author: zachminers
@@ -22,7 +22,7 @@ The Admin digest is on by default for your tenant.   Use the following methods t
 
 1. Sign in to the Viva Insights Admin portal with your Insights Admin credentials.  
 
-2. On the left, select **Settings**, then **Admin Digest email**.  
+2. On the left, under **Settings**, select **General**, then select **Admin Digest email**.  
 
 3. Turn off **Receive Admin Digest email**.  
 

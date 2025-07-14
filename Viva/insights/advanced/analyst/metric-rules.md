@@ -1,5 +1,5 @@
 ---
-ms.date: 03/25/2025
+ms.date: 06/30/2025
 title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
 author: zachminers
@@ -14,7 +14,7 @@ search.appverid:
 - MET150 
 ---
 
-# Advanced insights metric rules
+# Advanced analysis metric rules
 
 To reveal collaboration trends, Microsoft Viva Insights uses email, calendar, and Teams activities, like chats and calls. While people use these tools to collaborate on work, they might also use them to keep track of personal appointments and other non-collaboration activities. If metrics included these non-collaboration activities, those queries would produce skewed results.
 
@@ -31,13 +31,13 @@ Here are a few things to keep in mind about metric rules:
 
 ## About the metric rules page
 
-Before we get into discussing how to use rules in your queries, let’s discuss where you can find, create, and edit them: the **Metric rules** page. To get to the **Metric rules** page from the advanced insights app analyst experience, select **Metric rules** from the left pane.
+Before we get into discussing how to use rules in your queries, let’s discuss where you can find, create, and edit them: the **Metric rules** page. To get to the **Metric rules** page from the Viva Insights web app analyst experience, select **Metric rules** from the left pane.
 
 ### Views
 
 The **Metric rules** page contains five views, which you can access through tabs near the top of the page. Let’s talk about each of them, and also explain how to use some related features.
 
-:::image type="content" source="../images/analyst-metric-rules-page-small.png" alt-text="Screenshot that shows the Metric rules page in the advanced insights app, with the four view buttons highlighted above the list of rules." lightbox="../images/analyst-metric-rules-page-expanded.png":::
+:::image type="content" source="../images/metric-rules-one-insights.png" alt-text="Screenshot that shows the Metric rules page in the Viva Insights web app, with the four view buttons highlighted above the list of rules." lightbox="../images/metric-rules-one-insights.png":::
 
 #### All rules
 
@@ -259,7 +259,7 @@ If you’re ready to add your rule to a query, go to [How to add a rule to your 
     >[!Note]
     > You can only apply one rule at a time. If there’s a default rule active in your organization, you’ll notice that the rules pane shows it as selected. When you set a different rule, you’re choosing to use the one you picked instead of the default rule.
     > 
-    >If your organization is just starting to use the advanced insights app, the default rule here might be **Collaboration exclusions**. We talk about this rule in [The collaboration exclusions rule](#the-collaboration-exclusions-rule).
+    >If your organization is just starting to use the Viva Insights web app, the default rule here might be **Collaboration exclusions**. We talk about this rule in [The collaboration exclusions rule](#the-collaboration-exclusions-rule).
 
 1. Select the **Save settings** button.
 

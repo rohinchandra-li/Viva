@@ -1,5 +1,5 @@
 ---
-ms.date: 05/14/2025
+ms.date: 06/30/2025
 title: Organizational data overview
 description: This article gives an overview of the Organizational data page in the Microsoft Viva Insights advanced insights app. 
 author: zachminers
@@ -18,13 +18,13 @@ audience: Admin
 
 In this article, we discuss:
 
-* The value of organizational data for analysts.
-* The two types of organizational data that the advanced insights app can use.
-* The **Data hub** and **Organizational data** pages in the app's admin experience.
+* The value of organizational data for analysts
+* The two types of organizational data that the Viva Insights web app can use
+* The **Data hub** and **Organizational data** pages in the app's admin experience
 
 ## About organizational data
 
-Organizational data is descriptive information about employees. The advanced insights app combines organizational data with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. Depending on the organizational data available, an analyst can uncover these trends and use them to make more effective business decisions.
+Organizational data is descriptive information about employees. The Viva Insights web app combines organizational data with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. Depending on the organizational data available, an analyst can uncover these trends and use them to make more effective business decisions.
 
 Here's an example. An analyst might use organizational data to learn how people communicate across job functions, department groups, and management hierarchies by grouping and filtering descriptive attributes.
 
@@ -41,13 +41,13 @@ However, two attributes arrive automatically from user settings and SMTP address
 
 ### Attributes you get from Outlook/Exchange settings and SMTP addresses
 
-No matter whether you upload data from a .csv file or import it from Microsoft Entra ID, two attributes always come from the user's primary SMTP address and their Outlook/Exchange settings, respectively: **Domain** and **TimeZone**. When you view your organizational data in the advanced insights app, you'll see these two attributes alongside the attributes you bring in from Microsoft Entra ID or your .csv file.
+No matter whether you upload data from a .csv file or import it from Microsoft Entra ID, two attributes always come from the user's primary SMTP address and their Outlook/Exchange settings, respectively: **Domain** and **TimeZone**. When you view your organizational data in the Viva Insights web app, you'll see these two attributes alongside the attributes you bring in from Microsoft Entra ID or your .csv file.
 
 <a name='attributes-you-get-from-azure-active-directory'></a>
 
 ### Attributes you get from Microsoft Entra ID
 
-Microsoft Entra ID automatically syncs with the advanced insights app and provides data for three attributes:
+Microsoft Entra ID automatically syncs with the Viva Insights web app and provides data for three attributes:
 
 * **UserPrincipalName** (Entra ID source field), which maps to **PersonId**
 
@@ -82,12 +82,12 @@ You might also choose to include reserved optional attributes:
 
 If you want, you can also include custom attributes that you create.
 
-So, when you view your organizational data in the advanced insights app, you'll see the attributes you included in your .csv upload plus **Domain** and **TimeZone**.
+So, when you view your organizational data in the Viva Insights web app, you'll see the attributes you included in your .csv upload plus **Domain** and **TimeZone**.
 
 :::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right.":::
 
 > [!Important]
-> For Team Insights, The HR file influences the team composition only for users who have entries in the HR data file. For other users who do not appear in the HR file, Microsoft Entra ID is the data source. 
+> For Team Insights, the HR file influences the team composition only for users who have entries in the HR data file. For other users who don't appear in the HR file, Microsoft Entra ID is the data source. 
 >
 > Learn more about attributes and getting your organizational data file set up in [Prepare organizational data](prepare-org-data.md).
 
@@ -95,13 +95,17 @@ So, when you view your organizational data in the advanced insights app, you'll 
 
 To learn how to set up and structure an organizational data .csv file, refer to [Prepare organizational data](prepare-org-data.md).
 
-## Organizational data in the advanced insights app
+## Organizational data in the Viva Insights web app
 
-To check on your organizational data quality, and to add new data to the advanced insights app, use the **Data hub** and **Organizational data** pages.
+To check on your organizational data quality, and to add new data to the Viva Insights web app, use the **Data hub** and **Organizational data** pages.
 
-### Data hub
+### Insights Admin center
 
-**Data hub** is your admin landing page in the advanced insights app. You'll see a few sections here: 
+**The Insights Admin center** is your admin landing page in the Viva Insights web app. It provides key tools and metrics to help you set up Viva Insights and measure its success. [Learn more](./admin-center.md). Under **Platform Setup** on the left, you'll see a few other sections:
+
+#### Data hub
+
+This page has a few sections:
 
 * Data quality
 * Missing or low-quality insights and data fields

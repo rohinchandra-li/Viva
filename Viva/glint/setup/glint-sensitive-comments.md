@@ -43,6 +43,7 @@ Flagged, sensitive comments fall into three categories:
 
 To enable sensitive comments:
 
+1. Confirm that the survey isn't approved. Go to **Configuration**, select **Survey programs,** choose a survey, and switch off the **Approved** toggle.
 1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
 1. Select **Surveys** and choose a survey.
 1. In the **Sensitive Comments** section, select checkboxes for:
@@ -66,6 +67,9 @@ Quarantined comments are hidden from non-admin users. To quarantine a flagged co
 1. In the **Comments** section, go to the **PII**, **Profanity**, or **Sensitive** section to view flagged comments. Keywords are highlighted in red.
 1. On each comment, select its ellipsis and choose **Quarantine** to move comments to the Quarantined category.
 1. To remove a comment from the Quarantined category, select its ellipsis and choose **Un-Quarantine**.
+
+> [!NOTE]
+> Viva Glint Admins can quarantine any comment, even when enabling the Sensitive comments feature after a survey closes.
 
 ### Redact comments
 

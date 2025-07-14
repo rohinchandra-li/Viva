@@ -1,5 +1,5 @@
 ---
-ms.date: 5/13/2025
+ms.date: 7/8/2025
 title: Viva Insights video learning courses
 description: Get familiar with setting up advanced insights, queries, partitions, and more through these video trainings.
 author: zachminers
@@ -23,6 +23,14 @@ Use the video resources below to help you get started. Each link points to a ded
 [Set up partitions](../advanced/admin/partitions.md)
 
 [Customize privacy settings](../advanced/setup-maint/privacy-settings.md)
+
+[Prepare an organizational data file upload](../advanced/admin/prepare-org-data.md)
+
+[Structure an organizational data file](../advanced/admin/prepare-org-data.md#step-4---structure-the-organizational-data)
+
+[Upload a subsequent organizational data file](../advanced/admin/upload-org-data-subsequent.md)
+
+[Import organizational data using API-based import](../advanced/admin/import-org-data-first.md)
 
 [Import business data with Azure](./admin/import-business-data-azure.md#video-tutorial)
 
@@ -50,7 +58,7 @@ Use the video resources below to help you get started. Each link points to a ded
 
 [Customize your metrics](../advanced/analyst/custom-metrics.md#how-to-customize-a-metric)
 
-[Access your query results](../advanced/analyst/query-results.md#to-use-the-query-results-page)
+[Access your query results](../advanced/analyst/query-results.md#to-use-the-analysis-results-page)
 
 ## Courses for analysts - Organizational network analysis
 

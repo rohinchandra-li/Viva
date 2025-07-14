@@ -1205,6 +1205,16 @@
       "redirect_url": "/viva/insights/personal/teams/faq",
       "redirect_document_id": false
     },
+     {
+      "source_path": "viva/insights/advanced/setup-maint/control-advanced-insights-powershell.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/control-analysis-powershell",
+      "redirect_document_id": false
+    },
+         {
+      "source_path": "viva/insights/advanced/introduction-to-advanced-insights.md",
+      "redirect_url": "/viva/insights/advanced/analysis-intro",
+      "redirect_document_id": false
+    },
     {
       "source_path": "viva/insights/personal/teams/reference/viva-teams-app-settings.md",
       "redirect_url": "https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5",

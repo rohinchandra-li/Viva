@@ -1,5 +1,5 @@
 ---
-ms.date: 04/25/2025
+ms.date: 06/30/2025
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -18,7 +18,10 @@ audience: Admin
 
 # Environment requirements for Viva Insights
 
-Environment requirements vary depending on the type of insights you view in Microsoft Viva Insights. The types of insights are: personal insights, manager insights or leader insights in Microsoft Teams, and advanced insights in the web-based service.
+Environment requirements vary depending on the type of insights you view in Microsoft Viva Insights. The types of insights are:
+
+* Personal insights, manager insights or leader insights in Viva Insights in Microsoft Teams
+* Advanced analysis including the Microsoft Copilot Dashboard in the web-based Viva Insights app
 
 ## Personal insights
 
@@ -34,7 +37,7 @@ Microsoft Viva Insights provides personal insights in the [Viva Insights app in 
 
 The following personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
 
-* Microsoft 365 Copilot plans include a Viva Insights service plan with personal insights as well as manager, leader, and advanced insights for all employees with a Copilot license. 
+* Microsoft 365 Copilot plans include a Viva Insights service plan with personal insights as well as manager, leader, and advanced analysis for all employees with a Copilot license. 
 
 * With the following Microsoft 365 plans, a [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights) is available for purchase:
 
@@ -141,7 +144,7 @@ As an Outlook add-in, the Insights Outlook add-in requires a browser compatible 
 
 Personal insights in Viva Insights are available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
-See [Briefing languages](../../personal/briefing/be-languages.md) to see what's supported for Briefing emails and [Advanced insights language support](../../overview/supported-languages.md) for what's supported for advanced insights.
+See [Briefing languages](../../personal/briefing/be-languages.md) to see what's supported for Briefing emails and [Advanced analysis language support](../../overview/supported-languages.md) for what's supported for advanced analysis.
 
 ### Prerequisite and exclusion
 
@@ -152,16 +155,16 @@ See [Briefing languages](../../personal/briefing/be-languages.md) to see what's 
 
 * **Licensing exclusion**: Shared mailboxes aren't supported.
 
-## Manager, leader, and advanced insights
+## Manager, leader, and advanced analysis
 
-With the applicable [Viva Insights licensing](#viva-insights-licenses), your company can get manager and leader insights in Teams, and advanced insights features as an add-on to the licensing agreement.
+With the applicable [Viva Insights licensing](#viva-insights-licenses), your company can get manager and leader insights in Teams, and advanced analysis features as an add-on to the licensing agreement.
 
 Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, your company must have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 and Plan 2.
 
-Microsoft 365 Copilot plans also include manager, leader, and advanced insights for all employees who have an assigned Copilot license.
+Microsoft 365 Copilot plans also include manager, leader, and advanced analysis for all employees who have an assigned Copilot license.
 
 >[!Important]
->At least 50 assigned Viva Insights licenses are required to access advanced insights, organizational insights, and the Microsoft Copilot Dashboard. This minimum threshold can be achieved through a combination of licenses.
+>At least 50 assigned Viva Insights licenses are required to access advanced analysis, organizational insights, and the Microsoft Copilot Dashboard. This minimum threshold can be achieved through a combination of licenses.
 >
 >For example, 30 assigned Microsoft 365 Copilot licenses (which include the Viva Insights service plan) + 20 assigned Viva Insights licenses = 50 assigned Viva Insights licenses.
 
@@ -191,13 +194,13 @@ Contact your Microsoft account team for pricing. If you have questions about lic
 
 For the best experience, use Microsoft Edge or Google Chrome.
 
-Apple Safari and Mozilla Firefox are not preferred browsers for the advanced insights app available with Viva Insights. Internet Explorer is no longer a supported browser.
+Apple Safari and Mozilla Firefox are **not** recommended for the Viva Insights web app. Internet Explorer is not supported.
 
 ## Service availability during an outage
 
 Microsoft provides oversight, framework, and tooling to ensure that products like Viva Insights can maintain functionality and recover from a service outage. All Microsoft 365 applications are required to have a Business Continuity and Disaster Recovery (BCDR) plan. 
 
-If there’s an outage, Viva Insights will use a failover process to switch to a backup location. This ensures customers will continue to have access to existing reports, and all organization insights features (Manager/Leader and Analyst/Advanced Insights experience) will still be available. Users, however, won't be able to create new queries and reports until the primary region is back up and running.
+If there's an outage, Viva Insights will use a failover process to switch to a backup location. This ensures customers will continue to have access to existing reports, and all organization insights features (Manager/Leader and Analyst/Advanced analysis experience) will still be available. Users, however, won't be able to create new queries and reports until the primary region is backed up and running.
 
 Service availability is consistent across environments where Viva Insights plans are generally available. For details, see [Microsoft Viva Service Descriptions](/office365/servicedescriptions/microsoft-viva-service-description).
 

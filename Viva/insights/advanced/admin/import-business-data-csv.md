@@ -1,5 +1,5 @@
 ---
-ms.date: 03/27/2025
+ms.date: 06/30/2025
 title: Import business data via .csv upload
 description: Learn how to import business data into Viva Insights through a .csv file upload.
 author: zachminers
@@ -19,7 +19,7 @@ audience: Admin
 
 Uploading business data into Viva Insights helps you understand how Copilot usage influences the business outcomes that matter most to your organization. Business outcomes might include productivity metrics at both the task and job levels, such as the number of emails sent by your sales team or the number of closed deals.  
 
-Your business data can appear in the Microsoft Viva Insights advanced insights app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor setup. 
+Your business data can appear in the Viva Insights web app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor setup. 
 
 This article covers the first option, uploading .csv file.
 
@@ -54,7 +54,7 @@ To create a separate .csv file for each dataset, structure the data in this way:
 * Add a column for each business outcome metric you would like to analyze.
 
 >[!Note]
-> You'll need to upload numeric business outcome data to be used in any of the reports in advanced insights.
+> You'll need to upload numeric business outcome data to be used in any of the reports in advanced analysis.
 
 ## Setup
 
@@ -62,7 +62,7 @@ To create a separate .csv file for each dataset, structure the data in this way:
 
 To upload your business dataset in a .csv file, follow these steps:
 
-1. Open the [advanced insights app's](https://analysis.insights.viva.office.com) admin experience. 
+1. Open the [Viva Insights web app](https://analysis.insights.viva.office.com) admin experience. 
 
 2. Under **Platform Setup**, select **Business data**. 
 

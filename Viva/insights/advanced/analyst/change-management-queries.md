@@ -1,5 +1,5 @@
 ---
-ms.date: 05/13/2025
+ms.date: 06/30/2025
 title: Create change management queries
 description: Learn how to use organizational network analysis or ONA to measure the impact on collaboration after a large-scale company change.
 author: zachminers
@@ -30,13 +30,13 @@ With the query, you can uncover insights such as:
 
 ### Prerequisites
 
-Before you can run the ONA query and populate the report in the advanced insights app, you’ll need to be assigned the role of **Insights Analyst** in Viva Insights. [Learn about assigning roles](../../advanced/setup-maint/assign-user-roles.md).
+Before you can run the ONA query and populate the report in the Viva Insights web app, you’ll need to be assigned the role of **Insights Analyst** in Viva Insights. [Learn about assigning roles](../../advanced/setup-maint/assign-user-roles.md).
 
 ## Set up a Network Analysis
 
 > [!VIDEO 1843f987-8e68-4952-92b9-5c3b8721b216]
 
-1. In the advanced insights app’s **Analysis** page, in the **Network analysis** section, under “Change management,” select **Set up analysis**.
+1. In the Viva Insights web app's **Create analysis** page, in the **Network analysis** section, under “Change management,” select **Set up analysis**.
 
 2. Name the analysis. Make sure the name is unique and consider including the date. 
 

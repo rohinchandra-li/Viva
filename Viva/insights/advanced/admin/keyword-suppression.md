@@ -1,5 +1,5 @@
 ---
-ms.date: 04/1/2025
+ms.date: 06/23/2025
 title: Keyword suppression in Viva Insights
 description: Learn how to suppress sensitive keywords in email subject lines and meeting titles with Viva Insights. 
 author: zachminers
@@ -14,7 +14,7 @@ audience: Admin
 
 # Keyword suppression
 
-In the Microsoft Viva Insights advanced insights app, you can specify sensitive keywords that might appear in email subject lines or meeting titles across your organization. After you set them, subject lines or meeting titles that contain these keywords won't appear in any surface that uses Viva Insights data, including query output.
+In the Microsoft Viva Insights web app, you can specify sensitive keywords that might appear in email subject lines or meeting titles across your organization. After you set them, subject lines or meeting titles that contain these keywords won't appear in any surface that uses Viva Insights data, including query output.
 
 >[!Important]
 > Viva Insights suppresses *all* email subject lines and meeting titles by default. To get the most out of all Viva Insights features, you'll need to change this setting. Refer to [Default setting and feature availability](#default-setting-and-feature-availability) for more information.
@@ -35,7 +35,7 @@ If you keep this default setting (that is, suppress all meeting titles and subje
 
 ## How to change keyword-suppression settings
 
-In the advanced insight app's admin experience, go to **Privacy settings**.
+In the Viva Insights web app's admin experience, go to **Privacy settings**.
 
 Under **Suppress email subject lines and meeting titles**, you'll find these three options:
 

@@ -1,8 +1,7 @@
 ---
-
-ms.date: 4/2/2025
-title: Language support and guidelines for advanced insights in Viva Insights
-description: Describes the languages supported by Advanced insights within Microsoft Viva Insights
+ms.date: 6/30/2025
+title: Language support and guidelines for advanced analysis in Viva Insights
+description: Describes the languages supported by advanced analysis within Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
 ms.topic: concept-article
@@ -17,16 +16,15 @@ audience: Admin
 ---
 
 
-# Advanced insights language support and guidelines
+# Advanced analysis language support and guidelines
 
-The advanced insights app automatically uses your language identifier (language and region) setting, using one of the following sources:
+The Viva Insights web app automatically uses your language identifier (language and region) setting, using one of the following sources:
 
 * Windows
 * Your web browser
 * Exchange Online mailbox location setting
 
 >[!Important]
-> 
 >Metric names are displayed in English, regardless of your location, and Power BI templates are only available in English.
 
 ## Supported languages
@@ -81,7 +79,7 @@ Chinese (Traditional)|	zh-tw
 
 ## Guidelines for data in languages other than English
 
-If you're able to use the advanced insights app with _data_ in other languages, keep the following best practices in mind:
+If you're able to use the Viva Insights web app with _data_ in other languages, keep the following best practices in mind:
 
 * Column headers for the organizational data when you [prepare the organizational data](../admin/prepare-org-data.md) must be in English.
 * When an analyst selects metrics while building a [query](../analyst/person-query-overview.md), the metric names they choose can be in the language of their choice.

@@ -1,5 +1,5 @@
 ---
-ms.date: 02/13/2025
+ms.date: 07/8/2025
 title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: zachminers
@@ -16,7 +16,7 @@ audience: Admin
 
 # Upload organizational data (subsequent upload)
 
-If organizational data has already been uploaded into the advanced insights app, you as an admin can use the information in this article to:
+If organizational data has already been uploaded into the Viva Insights web app, you as an admin can use the information in this article to:
 
 * Edit existing data
 * Replace existing data
@@ -26,10 +26,8 @@ Complete these steps after preparing the data as described in [Prepare organizat
 
 > [!Important]
 > Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is your first upload, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
->
->For customers coming over from our legacy app:
->
-> If you're migrating from the legacy advanced insights app, the data you've uploaded to the legacy app will be automatically available in the new app. After you've started using the new app to upload your data, make all subsequent uploads here. Continuing to use the new app prevents data inconsistency.
+
+> [!VIDEO c51721cc-0400-4b36-9e49-69c8e801c465]
 
 ## Workflow
 
@@ -65,7 +63,7 @@ All three actions share the same two first steps:
     |Add new employees (rows) |[Update existing organizational data](#update-and-replace-existing-data) |Your file includes needs to include all required fields (**PersonId**, **ManagerId**, and **Organization**) and other optional fields. |
     |Add new fields (columns)|[Update existing organizational data](#update-and-replace-existing-data)| Your file needs to include **PersonId** and other optional fields.|
     |Edit fields (columns)|[Update existing organizational data](#update-and-replace-existing-data)|Your file needs to include **PersonId** and other optional fields.|
-    |Delete attributes| [Delete optional fields from existing organizational data](#delete-optional-fields-from-existing-organizational-data)|You can only delete optional attributes. If you delete fields used in autorefreshing queries, those queries will be disabled.|
+    |Delete attributes| [Delete optional fields from existing organizational data](#delete-optional-fields-from-existing-organizational-data)|You can only delete optional attributes. If you delete fields used in autorefreshing queries, those queries are disabled.|
     |Replace all existing organizational data|[Replace existing data](#replace-existing-data)|This option *permanently deletes* all organizational data you’ve uploaded in the past. If your file is missing any fields, autorefreshing queries that use those fields will be disabled.|
     | Remove employees from organizational data | [Delete specific employees from existing organizational data](#delete-employees-and-data-from-existing-organizational-data) | This option lets you delete specific employees from your organizational data using a .csv file. | 
 
@@ -95,7 +93,7 @@ For example, consider this initial state of org data within Viva Insights:
 | 09/01/2023 | 09/08/2023 | W@contoso.com | R@contoso.com | 102 | In this period, BadgeData is 102 |
 |09/08/2023 | 12/31/9999 | W@contoso.com | R@contoso.com | 106 | In this period, BadgeData is 106 |
 
-In this scenario, if you want to edit the ManagerId value beginning on 09/06/2023 and you want the new value to apply indefinitely going forward, you’ll need to update the ManagerId for every EffectiveDate starting 09/06/2023 from all past incremental upload(s) even if the ManagerId field was not part of those incremental upload(s).
+In this scenario, if you want to edit the ManagerId value beginning on 09/06/2023 and you want the new value to apply indefinitely going forward, you’ll need to update the ManagerId for every EffectiveDate starting 09/06/2023 from all past incremental uploads even if the ManagerId field was not part of those incremental uploads.
 
 Your new upload, therefore, would look like this:
 
@@ -104,7 +102,7 @@ Your new upload, therefore, would look like this:
 | 09/06/2023 | W@contoso.com | D@contoso.com |
 | 09/08/2023 | W@contoso.com | D@contoso.com |
 
-With that upload, your org data would then look like this. Note that for both 09/06/2023 and 09/08/2023, the ManagerId was updated to “D.”
+With that upload, your org data would then look like this. For both 09/06/2023 and 09/08/2023, the ManagerId was updated to “D.”
 
 | **StartDate** | **EndDate** | **PersonId**| **ManagerId** | **BadgeData** | **Comments** |
 |--------|---------|---------|-----------|-----------|----------|
@@ -119,7 +117,7 @@ Or, let’s imagine a different scenario. If you want to change the ManagerId on
 |--------|---------|---------|
 | 09/06/2023 | W@contoso.com | D@contoso.com |
 
-After that upload, your org data would look like this. Note that after 09/08/2023, the ManagerId is still “R,” because no change was made for the past entry on 09/08/2023.
+After that upload, your org data would look like this. After 09/08/2023, the ManagerId is still “R,” because no change was made for the past entry on 09/08/2023.
 
 | **StartDate** | **EndDate** | **PersonId**| **ManagerId** | **BadgeData** | **Comments** |
 |--------|---------|---------|-----------|-----------|----------|
@@ -236,7 +234,7 @@ For a query to run successfully, particular attributes (columns) need to be pres
 After you review missing attributes:
 
 * If you decide not to continue with the data upload or replacement, select **Cancel**. This button returns you to the field mapping page.
-* If you decide to continue with data upload even though there are missing attributes, select **Next**. Note that this choice turns off auto-refresh for queries listed above. You can still access the results of the last runs of these queries.
+* If you decide to continue with data upload even though there are missing attributes, select **Next**. This choice turns off auto-refresh for queries listed above. You can still access the results of the last runs of these queries.
 
 ## Validation
 
@@ -304,7 +302,7 @@ Before you make changes in the source file and try the upload again, you can sel
 
 #### Guidelines for correcting errors in data
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until you fix the source file (or you fix the attribute mapping).
+When any data row or column has an invalid value for any attribute, the entire upload fails until you fix the source file (or you fix the attribute mapping).
 
 To learn about formatting your file to prevent errors, refer to [File rules and validation errors](rules-validation-errors.md).
 

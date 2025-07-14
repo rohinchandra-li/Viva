@@ -14,12 +14,15 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/30/2025
+ms.date: 06/25/2025
 ---
 
 # Set up a Viva Glint Exit survey
 
 Together, Microsoft Viva Glint refers to Onboarding and Exit surveys as Employee Lifecycle surveys. Viva Glint **Exit surveys** help organizations understand the reasons that employees voluntarily leave. These reasons can range from career advancement opportunities elsewhere to dissatisfaction with their work environment.
+
+> [!IMPORTANT]
+> Viva Glint isn't designed to support HR Teams entering one-to-one exit interview feedback into the platform. Respondents should access surveys independently to provide responses.
 
 ## Recommended cadence and tips for Exit surveys
 

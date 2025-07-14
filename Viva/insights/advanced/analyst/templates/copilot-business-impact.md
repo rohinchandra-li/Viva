@@ -1,5 +1,5 @@
 ---
-ms.date: 4/17/2025
+ms.date: 6/30/2025
 title: Copilot Business Impact report
 description: Learn how to use the Microsoft 365 Copilot Business Impact Power BI template to understand how Copilot usage impacts business results at your company.
 author: zachminers
@@ -54,7 +54,16 @@ Before you can run the query and populate the report in Power BI, you’ll need 
 
 ### Uploading business outcome data in Viva Insights  
 
-There are two ways to upload your business outcome data in the Microsoft Viva Insights’ advanced insights app: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights;  or through an Azure blob import that you, your source system admin, and your Azure contributor setup. Learn more about how to import business data [using Azure](..//..//admin/import-business-data-azure.md), or [using a manual .csv upload](..//..//admin/import-business-data-csv.md).
+There are two ways to upload your business outcome data in the Viva Insights web app: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights;  or through an Azure blob import that you, your source system admin, and your Azure contributor setup. Learn more about how to import business data [using Azure](..//..//admin/import-business-data-azure.md), or [using a manual .csv upload](..//..//admin/import-business-data-csv.md).
+
+>[!IMPORTANT]
+> Your business outcome data must include a row for each user for each month that you want to include in the report. For example, if a query is set for 1/1/2025 to 3/31/2025, the business impact data would need to include the following rows of data for each user:
+>
+> Person A | 1/1/2025 | Business impact metric
+>
+> Person A | 2/1/2025 | Business impact metric
+>
+> Person A | 3/1/2025 | Business impact metric
 
 ### What are sample business outcome metrics to consider?  
 
@@ -73,17 +82,21 @@ For detailed scenario-based guidance on how to set up an analysis tailored to yo
 3. Under **Query setup**:
     
     1. Type a **Query name**.
-    1. Select a **Time period**. **Time period** defaults to **Last 3 months**.
-    1. Set **Auto-refresh** (optional). You can set the query to automatically update by selecting the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
+    2. Select a **Time period**. **Time period** defaults to **Last 3 months**.
 
-       > [!NOTE]
-       > If organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), the query might stop auto-refreshing.
+    >[!IMPORTANT]
+    > When selecting a time period, make sure it aligns with the time period for the uploaded business outcome data, and that there's business outcome data for each user for each queried month.
 
-     4. Type a **Description** (optional).   
-     5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. [Learn more about metric rules](../../analyst/metric-rules.md).
+    3. Set **Auto-refresh** (optional). You can set the query to automatically update by selecting the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
 
-        > [!NOTE]
-        > The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you can't change this setting.
+    > [!NOTE]
+    > If organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), the query might stop auto-refreshing.
+
+    4. Type a **Description** (optional).   
+    5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. [Learn more about metric rules](../../analyst/metric-rules.md).
+
+    > [!NOTE]
+    > The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you can't change this setting.
 
 4. Under **Select business outcome metrics of interest**, select one or more metrics that include your business outcome data. Select the dataset type and name of the dataset that has the business outcome measures you are looking for. You can select up to 5 metrics maximum.  
 
@@ -115,11 +128,11 @@ You can access the report in two different ways: 
 
 ### View report in the browser  
 
-To view the report in the browser, go to the **Query results page** and select the eye icon in the View column. Select **Open in new tab** if you want to keep the report in the background while doing other tasks in Advanced insights.
+To view the report in the browser, go to the **Analysis results** page and select the eye icon in the View column. Select **Open in new tab** if you want to keep the report in the background while doing other tasks.
 
 ### Open the Power BI template in Power BI Desktop
 
-1. Go to the Query results page and select the Power BI icon in the Actions column to download the Power BI template and get the query and partition identifiers. You’ll need these identifiers later.  
+1. Go to the **Analysis results** page and select the Power BI icon in the Actions column to download the Power BI template and get the query and partition identifiers. You’ll need these identifiers later.  
 
 2. Open the downloaded template.  
 

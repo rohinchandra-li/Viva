@@ -1,5 +1,5 @@
 ---
-ms.date: 03/25/2025
+ms.date: 06/23/2025
 title: Person query overview
 description: Learn about custom person queries in the Microsoft Viva Insights advanced insights app
 author: zachminers
@@ -46,9 +46,9 @@ Use a custom person query when you want to find broad trends in your organizatio
 
 ### Where to find custom person queries
 
-To access and run your own custom person queries, follow this navigation in the [advanced insights app](https://go.microsoft.com/fwlink/?linkid=2201482):
+To access and run your own custom person queries, follow this navigation in the [Viva Insights web app](https://go.microsoft.com/fwlink/?linkid=2201482):
 
-**Analysis > Custom queries > Person queries > Start analysis**
+**Create analysis > Create custom query > Person queries > Start analysis**
 
 >[!Note]
 >If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.

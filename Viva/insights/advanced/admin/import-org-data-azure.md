@@ -1,5 +1,5 @@
 ---
-ms.date: 08/6/2024
+ms.date: 06/30/2025
 title: Import organizational data with Azure blob import
 description: Learn how to import organizational data into Viva Insights through an Azure blob import.
 author: zachminers
@@ -17,7 +17,7 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of five ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; through an API-based import; through Workday; or through an Azure blob import that you, your source system admin, and your Azure contributor set up.
+Your organizational data can appear in the Viva Insights web app in one of five ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; through an API-based import; through Workday; or through an Azure blob import that you, your source system admin, and your Azure contributor set up.
 
 This article covers the fifth option, Azure blob import.
 

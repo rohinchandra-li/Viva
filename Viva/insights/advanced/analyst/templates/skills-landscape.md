@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 05/21/2025
+ms.date: 06/27/2025
 title: Skills landscape report
 description: Navigate the skills landscape report in Viva Insights
 author: zachminers
@@ -14,8 +13,8 @@ audience: Admin
 ---
 # Skills landscape report (preview)
 
->[!Important]
->This feature is in private preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+>[!IMPORTANT]
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 The Skills landscape report helps you explore top skills people in your company might have and identify potential skill gaps. These insights are powered by [People Skills](https://go.microsoft.com/fwlink/?linkid=2313228&clcid=0x409).
 
@@ -50,7 +49,7 @@ Before you can run the queries and populate the report in Power BI, you need to:
 
 ## Report setup
 ### Run query
-1.	In the Viva Insights analyst experience, select **Analysis.**
+1.	In the Viva Insights analyst experience, select **Create analysis.**
 2.	Under Power BI templates, navigate to **Skills landscape** and select **Set up analysis.**
 3.	Under **Query setup**:
 
@@ -83,7 +82,7 @@ Before you can run the queries and populate the report in Power BI, you need to:
       Learn more about attributes and data quality in [Data quality in the analyst experience.](../data-quality-analyst-experience.md)
 
 7.	Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
-8.	When your query results are ready, go to the **Query results page** and select the **Power BI icon**. Download the Power BI template and get the partition and query identifiers. You need these identifiers later.
+8.	When your query results are ready, go to the **Analysis results** page and select the **Power BI icon**. Download the Power BI template and get the partition and query identifiers. You need these identifiers later.
 
 ### Link report to query
 
@@ -176,7 +175,7 @@ Get definitions for key concepts introduced in this report. [Learn more about Pe
 
 ## FAQ 
 
-**Q1. I see the Skills landscape report template in Advanced Insights, but I can't run the query. And, employees with People Skills data is zero in the query setup. Why?**
+**Q1. I see the Skills landscape report template, but I can't run the query. And, employees with People Skills data is zero in the query setup. Why?**
 
 There are two prerequisites to use skills data for this report: 
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 10/02/2024
+ms.date: 6/23/2025
 title: Partitions in Viva Insights
 description: Learn how to create analyst workspaces in the advanced insights app.
 author: zachminers
@@ -58,11 +58,11 @@ In other words, what analysts create in their partitions stay within their parti
 
 ## Turn on partitions
 
-You can turn on partitions from the privacy settings page in the advanced insights app. [Learn how](../setup-maint/privacy-settings.md).
+You can turn on partitions from the privacy settings page in the Viva Insights web app. [Learn how](../setup-maint/privacy-settings.md).
 
 ## About the Partitions page
 
-Before we get into discussing how to use partitions, let’s discuss where you can find and create them: the **Partitions** page. To get to the **Partitions** page from the advanced insights app analyst experience, select **Partitions** from the left pane.
+Before we get into discussing how to use partitions, let’s discuss where you can find and create them: the **Partitions** page. To get to the **Partitions** page from the Viva Insights web app admin experience, select **Partitions** under **Settings**.
 
 The **Partitions** page contains all partitions admins in your company have created, along with the global partition.
  
@@ -85,13 +85,13 @@ If analysts were assigned their analyst role before your organization started us
 
 If analysts were assigned their analyst role after your organization started using partitions, they can’t automatically access the global partition or any other partition. You'll need to grant analysts access—to the global or to any partition—expressly. 
 
-To assign an analyst access to the global partition, select **Global partition** on the **Partitions** page in the advanced insights app. Then, follow step 6 below.
+To assign an analyst access to the global partition, select **Global partition** on the **Partitions** page in the Viva Insights web app. Then, follow step 6 below.
 
 ## How to create a partition and assign analysts access
 
 Create as many partitions as you want by following these steps:
 
-1.	In the advanced insights app's admin experience, select **Partitions** from the left pane.
+1.	In the Viva Insights web app's admin experience, select **Partitions** under **Settings**.
 1. Select **Create new partition**.
 1.	Under **Partition setup**:
     1. Enter a name for your partition.
@@ -160,13 +160,13 @@ If you just want to see how a partition was set up, and you don’t want to edit
 
 ### During data updates
 
-You might get partition-related errors when you add, replace, or delete organizational data in the advanced insights app. These messages begin with the header, “You must edit or delete partitions to proceed.”
+You might get partition-related errors when you add, replace, or delete organizational data in the Viva Insights web app. These messages begin with the header, “You must edit or delete partitions to proceed.”
 
 ### When you delete fields used in partitions
 
 If you delete fields or replace existing organizational data on the Organizational data page, you might get a message about partitions and data fields (“It looks like some partitions are using the fields you want to delete…”). This error tells you that fields in your existing data are used in partitions, either in filters or as organizational attributes. The partition can’t continue to work without these fields.
 
-Here’s an example. Let’s say you try to delete the **Function_type** field from your organizational data. However, one of your partitions, **Sales_Partition**, uses the **Function_type** field in a filter or as an organizational attribute. **Sales_Partition** can’t work without this field, so the advanced insights app shows you an error message:
+Here’s an example. Let’s say you try to delete the **Function_type** field from your organizational data. However, one of your partitions, **Sales_Partition**, uses the **Function_type** field in a filter or as an organizational attribute. **Sales_Partition** can’t work without this field, so the Viva Insights web app shows you an error message:
 
 :::image type="content" source="../images/admin-partition-error-field-delete.png" alt-text="Screenshot of an error for partitions using fields you want to delete. It includes a table that shows Selected field and Partition columns.":::
  
@@ -191,7 +191,7 @@ Then, try uploading your file again.
 
 #### When you delete attributes used in auto-refresh queries
 
-If you try to remove an attribute from a partition, but that attribute is also used in an auto-refresh query, the advanced insights app will show you a message. That message lets you know that certain queries will stop working if you proceed with deleting. 
+If you try to remove an attribute from a partition, but that attribute is also used in an auto-refresh query, the Viva Insights web app will show you a message. That message lets you know that certain queries will stop working if you proceed with deleting. 
 
 Here’s an example. Let’s say you go to edit your **Sales_Partition**, and you try to remove the **Sales_quota** attribute. Several analysts in this partition have been running auto-refresh queries that use **Sales_quota**. When you go to delete this field, you’ll get a list of which queries will stop auto-refreshing if you select **Proceed**:
 
@@ -199,12 +199,12 @@ Here’s an example. Let’s say you go to edit your **Sales_Partition**, and yo
 
 ## About navigation
 
-Navigation in the advanced insights app looks a bit different depending on whether you’re an admin, an analyst, or both, and whether you’re in the global partition.
+Navigation in the Viva Insights web app looks a bit different depending on whether you're an admin, an analyst, or both, and whether you're in the global partition.
 
 |Page| Admin| Analyst| Dual (admin and analyst)
 |----|------|--------|-------------------|
-|**Analysis**| |All partitions – *landing page*| All partitions – *landing page*|
-|**Query results**| |All partitions| All partitions
+|**Create analysis**| |All partitions – *landing page*| All partitions – *landing page*|
+|**Analysis results**| |All partitions| All partitions
 |**Metric rules** | |All partitions| All partitions
 |**Metric library**| | All partitions | All partitions
 |**Data hub (admin version)** | Global partition only – *landing page* | |Global partition only

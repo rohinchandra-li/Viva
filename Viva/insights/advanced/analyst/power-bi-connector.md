@@ -1,5 +1,5 @@
 ---
-ms.date: 07/25/2024
+ms.date: 06/30/2025
 title: Use the Power BI connector
 description: Learn how to connect your Viva Insights data to Power BI through the Power BI connector
 author: zachminers
@@ -24,8 +24,8 @@ To connect your Viva Insights data to Power BI using the [Power BI connector](/c
    1. Select **Viva Insights**. 
    1. Select the **Connect** button.
    1. Select **Continue** if you see a **Connecting to a third-party service** dialog box.
-2. In the advanced insights app:
-   1. Go to **Analyst > Query results**.
+2. In the Viva Insights web app:
+   1. In the analyst portal, select **Analysis results**.
    1. Find your query.
    1. Select **Link** to get the partition and query identifiers.
 3. In Power BI Desktop's **Connect to Viva Insights Data** window:
@@ -85,7 +85,7 @@ With the **Data granularity** advanced parameter, choose whether you want to:
 
 #### Aggregated data 
 
-When you use **Aggregated data**, the Power BI Connector automatically enforces the privacy rules configured in the advanced insights app, including the [Minimum group size](../setup-maint/privacy-settings.md#minimum-group-size), by providing aggregated query data in Power BI. This option helps you to confidently build reports and share them with others without having to worry about privacy settings.
+When you use **Aggregated data**, the Power BI Connector automatically enforces the privacy rules configured in the Viva Insights web app, including the [Minimum group size](../setup-maint/privacy-settings.md#minimum-group-size), by providing aggregated query data in Power BI. This option helps you to confidently build reports and share them with others without having to worry about privacy settings.
 
 Consider using **Aggregated data** when:
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 4/11/2025
+ms.date: 6/30/2025
 title: Viva Insights allowlist URLs
 description: Learn about the required URLs that must be allowed for Viva Insights to operate correctly.
 author: zachminers
@@ -51,4 +51,4 @@ While not required, allowing the following URLs can improve performance and ensu
 ## Related topics
 
 * [Supported languages](./supported-languages.md)
-* [Set up advanced insights](../setup-maint/setup-overview.md)
+* [Set up advanced analysis](../setup-maint/setup-overview.md)

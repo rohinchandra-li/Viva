@@ -1,5 +1,5 @@
 ---
-ms.date: 12/02/2024
+ms.date: 6/30/2025
 title: Set up your queries using Microsoft 365 Copilot in Viva Insights
 description: Learn how to use Microsoft Copilot while setting up your custom queries
 author: zachminers
@@ -70,9 +70,9 @@ If you’re not sure what type of query to run, Copilot can suggest a predefined
 
 ## How to use Copilot to build your person query
 
-First, to access custom person queries, follow this navigation in the [advanced insights app](https://analysis.insights.cloud.microsoft/):
+First, to access custom person queries, follow this navigation in the [Viva Insights web app](https://analysis.insights.cloud.microsoft/):
 
-**Analysis** > **Custom queries** > **Person queries** > **Start analysis**
+**Create analysis** > **Create custom query** > **Person queries** > **Start analysis**
 
 Then, use [these steps](..//analyst/person-query.md#set-up-your-query) to enter basic information like the query name, time period, and description.
 

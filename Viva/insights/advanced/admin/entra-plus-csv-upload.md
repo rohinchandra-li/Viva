@@ -1,5 +1,5 @@
 ---
-ms.date: 05/1/2025
+ms.date: 06/30/2025
 title: Use Microsoft Entra plus .csv files for parallel data uploads
 description: This article discusses how to upload your organizational data to Viva Insights using both Microsoft Entra and .csv files simultaneously.
 author: zachminers
@@ -76,7 +76,7 @@ Then, your subsequent update might look like this:
 
 ## How to enable parallel data uploads
 
-1. Log in to the advanced insights app. 
+1. Log in to the Viva Insights web app. 
 
 2. On the left, select **Organizational data**.  
 

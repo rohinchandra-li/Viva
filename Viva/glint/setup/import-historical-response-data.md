@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/02/2025
+ms.date: 06/24/2025
 ---
 
 # Import historical response data in Viva Glint
@@ -25,16 +25,16 @@ For highly trained users, Microsoft Viva Glint Advanced Configuration offers the
 
 It’s common for an organization to ask the same survey items that leaders are comfortable with. Revisit items to ensure they're aligned to your organization’s current strategy and consider these Viva People Science factors before moving forward with historical imports:
 
-### When did you conduct your last survey?
+- **When did you conduct your last survey?** <br>
 How recent is your data? Has your business gone through significant change like organizational restructure or significant growth or reduction of your employee base? If major changes like these occurred, historical data as your comparison may not be meaningful, especially if the data is more than one year old.
 
-### How does your previous response scale compare to Viva Glint’s?
+- **How does your previous response scale compare to Viva Glint’s?** <br>
 Glint’s response scale is a one to five Likert scale ranging from strongly disagree to strongly agree. If your previous items don't use this exact scale, it’s difficult to map items to make meaningful comparisons.
 
-### Do your items map to Viva Glint items?
+- **Do your items map to Viva Glint items?** <br>
 As you review Viva Glint standard items, do these items map to your previous items? It's important to consider intent of the question and the referent. If the items don't align to Viva Glint items, the comparisons aren't relevant.
 
-### Does a historical data import further your engagement strategy?
+- **Does a historical data import further your engagement strategy?** <br>
 Importing historical data for a non-Viva Glint source can be complex. Different vendors use various outcome measures, scales, and question wording. Previous items' results in Viva Glint don't often lead to furthering a modern approach to engagement and often results in a less agile approach.
 
 ## 2. Review prerequisites

@@ -28,7 +28,7 @@ There are many types of users in Viva Engage and managing each of them is differ
 - Users without a Microsoft Entra ID
 - Guests
 
-As a Microsoft 365 Global Administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
+As a Microsoft 365 User Administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
 
 All communities and groups from Viva Engage networks in Native Mode are managed through these admin centers. Some of the management capabilities regarding community or group members or users that can be done through the Microsoft 365 admin center includes:
 
@@ -49,9 +49,7 @@ If users have a Microsoft 365 account, they can't update their information direc
 > [!Important]
 > If a user had a customized profile prior to April 2020, it will be overwritten with their Microsoft Entra identity to create a single source of truth.
 
-When a user's Viva Engage account is activated, Viva Engage takes the language setting in Microsoft 365. If the user or admin changes their language setting in Microsoft 365 or Microsoft Entra ID, Viva Engage doesn't pick up this change. The user can change their Viva Engage language setting in their Viva Engage profile on the **Preferences** tab.
-
-This change means that we retire properties that aren’t synced today, like a user’s personal email account information. If you’d like to maintain information data from the **About Me** settings – such as Schools, Expertise, and Interest - we recommend that you export this data. Use Microsoft Graph to update the users’ Microsoft 365 profile, or ask users to update it themselves in Microsoft Delve.
+When a user's Viva Engage account is activated, Viva Engage takes the language setting in Microsoft 365. If the user or admin changes their language setting in Microsoft 365 or Microsoft Entra ID, Viva Engage doesn't pick up this change. The user can change their Viva Engage language settings through the user settings experience (accessed through the settings gear).
 
 ## How are user photos managed?
 
@@ -75,7 +73,7 @@ Beginning in March 2019, we changed how Viva Engage users are created. The proce
 
     The process of creating a user requires these steps:
   
-    1. The Microsoft 365 Global administrator creates a user in Microsoft 365.
+    1. The Microsoft 365 User administrator creates a user in Microsoft 365.
 
     2. The user signs in to Microsoft 365 using the identity provider configured for the tenant.
 
@@ -89,7 +87,7 @@ When **Enforce Office 365 identity** is selected in Viva Engage (including when 
 
 The process follows these steps:
   
-1. The Microsoft 365 Global administrator creates a user in Microsoft 365.
+1. The Microsoft 365 User administrator creates a user in Microsoft 365.
 
 2. A pending user is created in Microsoft 365. The first time the user uses Viva Engage, the pending user becomes an active user.
 
@@ -100,42 +98,9 @@ The process follows these steps:
     |New users added to your Microsoft 365 tenant|**Enforce Office 365 identity** selected|Users are automatically added as pending users in Viva Engage.
     | Existing users in your Microsoft 365 tenant|**Enforce Office 365 identity** selected|Microsoft 365 users must use Viva Engage to be added as a Viva Engage user. |
 
-## Block a user
-
-When a Microsoft 365 Global administrator blocks a user in Microsoft 365, the user is signed out of Viva Engage and all other Microsoft 365 services.
-
-The process takes the following steps:
-
-1. In the Microsoft 365 admin center, select a user and choose **Edit User**. The **Sign-in status** appears in the user details.
-  
-2. Select **Edit** next to **Sign-in status** and switch **Allow the user to sign in** to **Block the user from signing in**.
-  
-This action flows into Viva Engage, and the corresponding user is signed out of Viva Engage (on all devices). The next time this user tries to sign in to Viva Engage from any device, they're prompted to sign in with their Microsoft 365 credentials. However, the user can't sign in because their sign-in status is set to blocked. As a Viva Engage verified administrator, you can look at the Account activity in the Network Admin area to verify that the Viva Engage user is signed out (that is, they have no active Viva Engage sessions).
-
- :::image type="content" source="../../media/c0704de5-d3c4-4b34-9bbb-f3cf31799734.png" alt-text="Screenshot of the Account Activity for a user showing no active Viva Engage sessions (logged out).":::
-  
 ## Delete a user
 
-If an employee leaves the company, you can delete the user from Microsoft 365. When the user is deleted from Microsoft 365, the corresponding user is deactivated (also known as suspended) in Viva Engage. The following diagram shows how this works:
-  
-The process follows these steps:
-  
-1. An admin deletes a user from Microsoft 365.
-  
-2. The user deletion in Microsoft 365 flows into Viva Engage, and the corresponding Viva Engage user is deactivated in Viva Engage. You can do the same operation in Viva Engage admin center: choose **Remove Users** and select **Deactivate this user**.
-
-    :::image type="content" source="../../media/91299919-212c-41f9-b6dd-185c0b81de65.png" alt-text="Screenshot showing how to deactivate a user in Viva Engage.":::
-  
-    Deactivated (or suspended) users show up in Viva Engage administration pages as being deactivated by **System Administrator**, as shown in the following screenshot:
-
-   :::image type="content" source="../../media/b0ac3142-1fba-4c52-95d8-bbbb063cdaa2.png" alt-text=" Screenshot that shows a user removed by System Administrator.":::
-  
-    When you delete a user in Microsoft 365, the user becomes inactive. After approximately 30 days, user data gets permanently deleted. See [Delete a user from your organization](https://support.office.com/article/d5155593-3bac-4d8d-9d8b-f4513a81479e).
-
-    Similarly, when a user is deactivated in Viva Engage, that user becomes inactive in Viva Engage. After approximately 90 days, deactivated users are permanently removed, but their name, files, messages and activity data are retained.
-
- > [!IMPORTANT]
- > When you delete a user from Microsoft 365 and this flows through to Viva Engage, the user's name, files, messages, and activity data remain in Viva Engage even though the user is deleted. For options that remove a user in a way that the user's name and data are also deleted from Viva Engage, see [Remove users](add-block-or-remove-users.md) and [Manage GDPR data subject requests in Viva Engage Enterprise](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
+To delete a user from Viva Engage, follow the instructions to remove a user in [Manage GDPR data subject requests for Viva Engage users](add-block-or-remove-users.md).
   
 ## Restore a user
 
@@ -157,7 +122,7 @@ The user profile experience differs depending on whether or not the account is c
 
 ### For Microsoft Entra connected accounts
 
-Microsoft 365 uses the cloud-based service Microsoft Entra ID to manage users. In an on-premises environment, you can manage users in the cloud, or create and synchronize users, communities, or groups in [Microsoft 365  and Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9). 
+Microsoft 365 uses the cloud-based service Microsoft Entra ID to manage users. In an on-premises environment, you can manage users in the cloud, or create and synchronize users, communities, or groups in [Microsoft 365 and Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
 
 When Microsoft 365 users who are new to Viva Engage access Viva Engage for the first time using their Microsoft Entra credentials, a Viva Engage user is created. The Viva Engage user profile is then populated with the Microsoft Entra user properties. When the user's profile properties are edited in Microsoft Entra ID, they're updated in the existing user's Viva Engage profile. For example, if the user's department changes in Microsoft Entra ID, it also changes in Viva Engage.
   
@@ -171,10 +136,10 @@ User profiles that they see in Viva Engage are their Microsoft 365 profile, if t
 
     User photos are synced from Microsoft. To prepare for this change, make sure your organization’s photos can be found in any one of the following places:
 
-    - Go to the All users list in the Microsoft Entra admin center and then select the desired user for picture.
-    - Confirm the My account page in the Microsoft portal has the photo.
-    - Get the Photo API using the Microsoft Graph preview.
-    - Get-the UserPhoto Exchange Online cmdlet, if applicable.
+  - Go to the All users list in the Microsoft Entra admin center and then select the desired user for picture.
+  - Confirm the My account page in the Microsoft portal has the photo.
+  - Get the Photo API using the Microsoft Graph preview.
+    Get-the UserPhoto Exchange Online cmdlet, if applicable.
 
 - To view their profile in Viva Engage, users can choose **Edit Settings**, and then **Profile**.
 
@@ -184,7 +149,7 @@ If your Viva Engage users aren't in Microsoft Entra ID, then they can update the
   
 :::image type="content" source="../../media/e9378a05-bb94-4775-9336-818333e65edf.png" alt-text="Screenshot showing a sample user profile.":::
   
-The Microsoft 365 Global administrator can edit user properties from the Microsoft 365 admin center.
+The Microsoft 365 User administrator can edit user properties from the Microsoft 365 admin center.
   
 ### Edit user properties in Microsoft 365
   
@@ -234,5 +199,3 @@ The users who sign in Viva Engage with Microsoft 365 credentials can be managed 
 [Manage a Viva Engage community or group](https://support.office.com/article/12ce0216-0618-4576-b87a-a8c189cee0f8)
 
 [Change my profile settings](https://support.office.com/article/cb9b9f8b-391d-424b-b752-5e23619fadec)
-
-[Add, block, or remove Viva Engage users](../manage-viva-engage-users/add-block-or-remove-users.md)

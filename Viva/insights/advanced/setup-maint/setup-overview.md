@@ -1,5 +1,5 @@
 ---
-ms.date: 10/17/2024
+ms.date: 6/30/2025
 title: Viva Insights setup overview
 description: Get an overview of Viva Insights setup tasks
 author: zachminers
@@ -24,14 +24,14 @@ This setup checklist, along with related articles, helps coordinate tasks betwee
 
 ## Setup tasks
 
-1. Assign Viva Suite/Insights licenses (Privileged Role Administrator, License admin, or user admin).
-2. Assign admin and analyst roles (Privileged Role Administrator).
-3. Enable or disable advanced insights with PowerShell (Microsoft 365 global admin).
-4. Assign manager and leader permissions (Insights Administrator).
-5. Manage Viva Insights app defaults (Microsoft 365 admin).
-6. Set up and deploy the Teams app (Teams Service Administrator).
-7. Customize Viva Insights settings (Insights Administrator).
-8. Add organizational data to the advanced insights app (Insights Administrator). 
+1. Assign Viva Suite/Insights licenses (Privileged Role Administrator, License admin, or user admin)
+2. Assign admin and analyst roles (Privileged Role Administrator)
+3. Enable or disable advanced analysis with PowerShell (AI admin)
+4. Assign manager and leader permissions (Insights Administrator, AI admin)
+5. Manage Viva Insights app defaults (Microsoft 365 admin)
+6. Set up and deploy the Teams app (Teams Service Administrator)
+7. Customize Viva Insights settings (Insights Administrator)
+8. Add organizational data to the Viva Insights web app (Insights Administrator)
 
 ## Next steps
 

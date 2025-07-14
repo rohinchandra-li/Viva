@@ -1,6 +1,6 @@
 ---
-ms.date: 04/1/2025
-title: Filters in advanced insights queries
+ms.date: 06/30/2025
+title: Filters in advanced analysis queries
 description: Learn more about filters in queries
 author: zachminers
 ms.author: v-zachminers
@@ -14,9 +14,9 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Filters in advanced insights queries
+# Filters in advanced analysis queries
 
-You encounter filters across the advanced insights app: while you're building a query, while you're customizing metrics, and while you're setting up metric rules. In a nutshell, by only picking out values that match certain conditions, filters focus your queries on the data you want to analyze.
+You encounter filters across the analyst experience in the Viva Insights web app: while you're building a query, while you're customizing metrics, and while you're setting up metric rules. In a nutshell, by only picking out values that match certain conditions, filters focus your queries on the data you want to analyze.
 
 >[!Note]
 >If you're creating a meeting query, you can only set certain kinds of filters. Read our meeting query documentation for more information on predefined filters.
@@ -31,7 +31,7 @@ In each process we described above—queries, metric customization, and metric r
 
 Filters work with two types of data:
 
-* Organizational data your admin uploads or syncs with the advanced insights app - You set these kinds of filters up when you run custom person queries and Power BI queries.
+* Organizational data your admin uploads or syncs with the Viva Insights web app - You set these kinds of filters up when you run custom person queries and Power BI queries.
 * Meeting data - You set these kinds of filters up when you run meeting queries.
 
 #### Organizational data
@@ -154,7 +154,7 @@ Here's how that would look in a query. Notice how large the number of **Measured
 |2| or|*TimeZone = Europe/Berlin*|13673
 |3    |or|*Organization = Engineering*| 26925
 
-:::image type="content" source="../images/analyst-filter-orstatements.png" alt-text="Screenshot that shows three individual or statments.":::
+:::image type="content" source="../images/analyst-filter-orstatements.png" alt-text="Screenshot that shows three individual or statements.":::
 
 When you use "or" in an *individual* condition statement (that is, not a condition group) any other individual condition statements you add also need to be "or" statements. In other words, you can't add an "or" statement and then add an "and" statement as another separate condition statement. 
 

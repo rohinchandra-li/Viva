@@ -1,6 +1,6 @@
 ---
-ms.date: 05/7/2025
-title: Advanced insights metric descriptions
+ms.date: 06/30/2025
+title: Advanced analysis metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
 ms.author: v-zachminers
@@ -20,9 +20,9 @@ search.appverid:
 
 ---
 
-# Advanced insights metrics
+# Advanced analysis metrics
 
-When you create queries in the Microsoft Viva Insights advanced insights app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
+When you create queries in the Viva Insights web app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
 
 > [!NOTE]
 > You can customize certain parameters by adjusting metric rules, so definitions might vary by organization. [Learn more about metric rules](../analyst/metric-rules.md). Learn about [default exclusion scenarios for meetings, emails, and calls](../analyst/metric-rules.md#about-default-rules).
@@ -187,7 +187,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="working-hours-unscheduled-call-hours-define"></a> Working-hours unscheduled call hours | Number of hours a person spent in unscheduled Teams calls, during working hours. | Hour |
 
 > [!NOTE]
-> In Microsoft Teams, teamwork and communication happen in channels. Viva Insights includes several metrics which measure aspects of team communication over channels in Teams. When these metrics first become available in the Advanced insights app, they will reflect a baseline of only 14 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
+> In Microsoft Teams, teamwork and communication happen in channels. Viva Insights includes several metrics which measure aspects of team communication over channels in Teams. When these metrics first become available in the Viva Insights web app, they will reflect a baseline of only 14 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
 
 ## Microsoft 365 Copilot metrics
 

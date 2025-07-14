@@ -13,7 +13,7 @@ metadata:
   - essentials-get-started
   author: zachminers 
   ms.author: v-zachminers 
-  ms.date: 09/30/2024
+  ms.date: 06/23/2025
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | tutorial | overview | quickstart | reference | sample | tutorial | video | whats-new
 
@@ -57,9 +57,9 @@ landingContent:
             url: assign-licenses.md
           - text: Assign roles - Privileged Role Administrator
             url: assign-user-roles.md
-          - text: Enable or disable advanced insights with PowerShell - Microsoft 365 global admin
-            url: control-advanced-insights-powershell.md
-          - text: Configure manager and leader permissions - Insights Administrator
+          - text: Enable or disable advanced analysis with PowerShell - AI admin
+            url: control-analysis-powershell.md
+          - text: Configure manager and leader permissions - Insights Administrator, AI admin
             url: manager-settings.md
           - text: Set up personal insights app defaults - Exchange Online admin
             url: configure-personal-insights.md              
@@ -75,7 +75,7 @@ landingContent:
             url: user-roles.md
           - text: Learn about organization insights
             url: ../../org-team-insights/org-insights.md
-          - text: Read the organization and advanced insights technical privacy guide
+          - text: Read the organization and advanced analysis technical privacy guide
             url: ../privacy/privacy.md 
           - text: Read the personal insights privacy guide for admins
             url: ../../personal/overview/privacy-guide-admins.md

@@ -1,5 +1,5 @@
 ---
-ms.date: 3/05/2025
+ms.date: 6/30/2025
 title: To maximize data insight, use the Viva Glint and Viva Insights integration
 description: Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into their business to better understand their people’s full work experience. 
 author: zachminers
@@ -41,7 +41,7 @@ To ensure that employee records between Viva Glint and Viva Insights are matched
 
 **Workflow to send Viva Glint data to Viva Insights**
 
-1. The **Viva Insights admin** sets up a new import in the advanced insights app. [Learn more about how to start the process](/viva/insights/advanced/admin/import-survey-glint).
+1. The **Viva Insights admin** sets up a new import in the Viva Insights web app. [Learn more about how to start the process](/viva/insights/advanced/admin/import-survey-glint).
 
 2. The **Viva Insights admin** contacts the **Viva Glint admin** to share Viva Glint survey data, and the **Viva Glint admin** selects specific survey programs and sends the data to Viva Insights. [Learn more about this step](/viva/glint/setup/insights-integration).
 

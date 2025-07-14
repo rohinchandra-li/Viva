@@ -1,6 +1,6 @@
 ---
-ms.date: 09/24/2024
-title: Viva Insights data residency for advanced insights, managers, and leaders
+ms.date: 06/23/2025
+title: Viva Insights data residency for advanced analysis, managers, and leaders
 description: Provides information to customers about where data is stored at rest based on their geography and date of Viva Insights provisioning. 
 author: zachminers
 ms.author: v-zachminers
@@ -14,9 +14,9 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Viva Insights data residency for advanced insights, managers, and leaders
+# Viva Insights data residency for advanced analysis, managers, and leaders
 
-Viva Insights provides local data residency capabilities for advanced insights, managers, and leaders related to collaboration activities (for example, number of emails sent, or number of emails read) and metric computations data. The location where this data is stored at rest is determined by the default geography of the *tenant* (default mailbox region), not individual users.  
+Viva Insights provides local data residency capabilities for advanced analysis, managers, and leaders related to collaboration activities (for example, number of emails sent, or number of emails read) and metric computations data. The location where this data is stored at rest is determined by the default geography of the *tenant* (default mailbox region), not individual users.  
 
 See the table below for supported local data residency scenarios:
 

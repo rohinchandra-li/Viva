@@ -17,6 +17,8 @@ items:
             href: setup/privacy-protection-reporting.md
           - name: Privacy protection for 360 feedback programs
             href: setup/privacy-360-feedback.md
+          - name: Data residency for Viva Glint
+            href: setup/data-residency-for-viva-glint.md
       - name: Export raw response data
         items:
           - name: Access raw survey responses
@@ -500,6 +502,10 @@ items:
                  href: ../insights/advanced/admin/partitions.md
                - name: Glint and Insights analyst report
                  href: ../insights/advanced/analyst/templates/glint.md
+      - name: Viva Glint and Viva Pulse
+        items:    
+          - name: Take action after Viva Glint surveys with Viva Pulse
+            href: ../pulse/viva-integrations/take-actions-after-glint-survey.md      
       - name: Viva Glint and Microsoft Teams
         items:
           - name: Use Teams for Viva Glint notifications

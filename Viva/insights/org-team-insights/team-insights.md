@@ -1,5 +1,5 @@
 ---
-ms.date: 09/30/2024
+ms.date: 06/23/2025
 title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web
 author: zachminers
@@ -28,7 +28,7 @@ Throughout this document, we'll link to more detailed information.
 
 ## About team data and data privacy
 
-Team insights use collaboration data from Microsoft 365. Depending on your setup, team insights might also use organizational data that your admin has uploaded in the advanced insights app, or that's available from Microsoft Entra ID, to determine who should be included in your "team."  
+Team insights use collaboration data from Microsoft 365. Depending on your setup, team insights might also use organizational data that your admin has uploaded in the Viva Insights web app, or that's available from Microsoft Entra ID, to determine who should be included in your "team."  
 
 With team insights, you can't see individual team members' personal collaboration habits. Team insights are generated entirely from activity data from only a user’s own account, and computed from their email, meetings, chats, and calls. All of the same privacy protections and considerations apply to team insights as to other personal insights. 
 
@@ -51,7 +51,7 @@ Refer to these articles to install, pin, and configure the app in Teams:
 
 ### How teams are built
 
-Viva Insights automatically builds teams based on organizational data uploaded or connected to the advanced insights app. If your organization uses Microsoft Entra ID to populate Viva Insights—which is the default setting—then we use that directory’s information to build your team. However, if your admin uploads an HR file to the advanced insights app, we use the data provided in that file to create your team. Specifically: 
+Viva Insights automatically builds teams based on organizational data uploaded or connected to the Viva Insights web app. If your organization uses Microsoft Entra ID to populate Viva Insights—which is the default setting—then we use that directory’s information to build your team. However, if your admin uploads an HR file to the Viva Insights web app, we use the data provided in that file to create your team. Specifically: 
 * The HR file influences the team composition only for users who have entries in the HR data file.
 * For other users who do not appear in the HR file, we fall back to using Microsoft Entra ID.
 
@@ -110,4 +110,4 @@ Yes.
 
 **How are direct reports determined?**
 
-Depending on your setup, team insights might also use organizational data that your admin has uploaded in the advanced insights app, or that's available from Azure Active Directory, to determine who should be included in your "team."
+Depending on your setup, team insights might also use organizational data that your admin has uploaded in the Viva Insights web app, or that's available from Azure Active Directory, to determine who should be included in your "team."

@@ -1,7 +1,7 @@
 ---
 ms.date: 10/04/2024
 title: Meeting query
-description: Learn how to run a custom meeting query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a custom meeting query in the Microsoft Viva Insights web app
 author: zachminers
 ms.author: v-zachminers
 ms.topic: how-to
@@ -23,7 +23,7 @@ audience: Admin
 
 > [!VIDEO e820af24-1cfe-4a7d-9cc4-c8895146d7cf]
 
-Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
+Each of these steps takes place within one section of the [Viva Insights web app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Create analysis > Create custom query > Meeting query** page.
 
 >[!Note]
 >If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
@@ -208,7 +208,7 @@ Select the **Run** button in the screen’s upper right to run the query.
 
 ### To access your query results
 
-After your query runs, access its results in the **Query results** page. On the **Query results** page, you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
+After your query runs, access its results in the **Analysis results** page. On the **Analysis results** page, you can also edit and clone your query. For further information, refer to [Access query results and modify existing queries](./query-results.md).
 
 Here's a sample of how a .csv meeting query output looks:
 
@@ -244,7 +244,7 @@ Let’s say you wanted to run a meeting query to find out how often attendees ar
     1. Select the **Add to query** button.
 
 1. Select the **Run** button on the upper right of the screen to run the query.
-1. After the query successfully runs, find the results on the **Query results** page. You can take these actions from the Query results page:
+1. After the query successfully runs, find the results on the **Analysis results** page. You can take these actions from the Query results page:
    * Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
    * **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
 

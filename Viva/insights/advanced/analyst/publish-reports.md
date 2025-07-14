@@ -1,5 +1,5 @@
 ---
-ms.date: 03/14/2025
+ms.date: 06/30/2025
 title: Publish reports
 description: Provides instructions to Viva Insights analysts and admins on how to publish and view insights reports and customize their settings.
 author: zachminers
@@ -19,11 +19,14 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
+>[!IMPORTANT]
+> Some report publishes are currently failing. We're aware of the issue and are actively working on a fix. Thank you for your patience as we work to restore full functionality.
+
 The Publish reports feature lets you share insights and reports directly with leaders, decision-makers, or even an entire organization in the recipient’s Viva Insights app. This helps to streamline the communication process between analysts and leadership, ensuring that organizational insights and data are delivered effectively alongside other Viva Insights content.
 
 A "report" can refer to:
 
-* Any Power BI report within Viva Insights. This could be a precomputed report on the home page, or a Power BI report that you access from the **Query results** tab. 
+* Any Power BI report within Viva Insights. This could be a precomputed report on the home page, or a Power BI report that you access from the **Analysis results** tab. 
 
 * A custom report stored outside of Viva Insights that includes Viva Insights metrics or other types of metrics like surveys or Microsoft 365 Copilot metrics. This report is typically in Power BI but it doesn't have to be. You might have already shared this report via email, but with this feature you can publish it seamlessly within Viva Insights. 
 
@@ -43,7 +46,7 @@ This feature is off by default. To enable this feature in your tenant, Insights 
 
 ## Roles and permissions
 
-You can access this feature within the advanced insights app.
+You can access this feature within the Viva Insights web app.
 
 * Analysts can create new publishes, view publishes, and remove any existing publishes.
 
@@ -55,12 +58,12 @@ This page displays all the publishes within the past year from the partition, re
 
 When viewing existing publishes, you can see details on the author, publish name, publish date, end date, status, and actions.
 
-:::image type="content" source="../images/publish-reports-landing-page.png" alt-text="Screenshot that shows the publish reports landing page.":::
+:::image type="content" source="../images/publish-reports-nav.png" alt-text="Screenshot that shows the publish reports landing page.":::
 
 |Term |Description |
 |---|---|
 |Author |The email address of the person who published the report. |
-|Publish name | A friendly name for the publish that’s only visible in the advanced insights app, and not to any recipients. |
+|Publish name | A friendly name for the publish that's only visible in the Viva Insights web app, and not to any recipients. |
 | Publish date | The date the publish was made. |
 | End date | The date recipients will no longer be able to see this publish. The end date is selected by the publisher at the time of publish. |
 | Status | The current state of the publish. It can be one of five values:  <br><br /><li> **Publishing**: The state of the report immediately after publishing. This state will generally exist for up to 10 minutes as the system delivers the publish to recipients.  <li>**Published**: The report is currently available for recipients to view in their Viva Insights app. <li>**Ended**: The report reached its scheduled end time, and is no longer available for recipients to view in their Viva Insights app. <li>**Removed**: Before a report reached its scheduled end date, an analyst removed a publish so recipients can no longer view it in their Viva Insights app. <li>**Failed**: The report was unable to be published due to system errors. |
@@ -106,7 +109,7 @@ Set a date when the published report card will no longer be available for recipi
 
 #### Choose a name for the publish 
 
-Assign a unique name to your report's publish. This name will help you and other analysts identify the report within the Advanced Insights app. This is only visible within the Advanced Insights app and is not visible to recipients.
+Assign a unique name to your report's publish. This name will help you and other analysts identify the report within the Viva Insights web app. This is only visible within the Viva Insights web app and is not visible to recipients.
 
 #### Publish 
 
@@ -116,7 +119,7 @@ Upon publishing, the card is available immediately on recipients' Viva Insights 
 
 ## How to publish a custom report
 
-Under the **Analysis** tab in the advanced insights app, select **Publish reports**. Then, at the top right, select **Publish new**.
+Under the **Analysis** tab in the Viva Insights web app, select **Publish reports**. Then, at the top right, select **Publish new**.
 
 ### Create your card
 
@@ -169,7 +172,7 @@ Set a date when the published report card will no longer be available for recipi
 
 #### Choose a name for the publish 
 
-Assign a unique name to your report's publish. This name will help you and other analysts identify the report within the Advanced Insights app. This is only visible within the Advanced Insights app and is not visible to recipients. 
+Assign a unique name to your report's publish. This name will help you and other analysts identify the report within the Viva Insights web app. This is only visible within the Viva Insights web app and is not visible to recipients. 
 
 #### Continuing our example
 
@@ -204,7 +207,7 @@ Navigate to **Create analysis** and select the **Custom query** filter on the to
 
 In the metrics section, add relevant metrics from the Custom recommendation activity metrics dropdown. Then, run the query.  
 
-When the query completes, download the results from **Query results**. You can then map the Card ID from the **View publish** page within **Publish Reports** to the Card identity column in the report output to find the engagement of your published report card.
+When the query completes, download the results from **Analysis results**. You can then map the Card ID from the **View publish** page within **Publish Reports** to the Card identity column in the report output to find the engagement of your published report card.
 
 :::image type="content" source="../images/publish-reports-view-publish.png" alt-text="Screenshot that shows the view publish page.":::
 

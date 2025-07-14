@@ -1,5 +1,5 @@
 ---
-ms.date: 11/25/2024
+ms.date: 6/30/2025
 title: File rules and validation errors
 description: View errors and solutions for validation errors in the advanced insights app
 author: zachminers
@@ -14,7 +14,7 @@ audience: Admin
 
 # File rules and validation errors
 
-In this article, we describe how your upload file needs to be formatted, and provide errors you might encounter while bringing data into the advanced insights app.
+In this article, we describe how your upload file needs to be formatted, and provide errors you might encounter while bringing data into the Viva Insights web app.
 
 ## File and field rules
 
@@ -112,7 +112,7 @@ The download log shows measured users who are missing any data field *except* th
 
 ## Validation errors and warnings
 
-Here are validation errors you might encounter while uploading data to the advanced insights app. In most cases, you need to correct the errors and upload your file again. Review our [Prepare organizational data](./prepare-org-data.md) article to learn how to format and get your data ready for upload.
+Here are validation errors you might encounter while uploading data to the Viva Insights web app. In most cases, you need to correct the errors and upload your file again. Review our [Prepare organizational data](./prepare-org-data.md) article to learn how to format and get your data ready for upload.
 
 |Category|Related rule| Message|Applies to|
 |---|-----|---|---|

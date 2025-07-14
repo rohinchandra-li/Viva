@@ -1,5 +1,5 @@
 ---
-ms.date: 11/18/2024
+ms.date: 6/30/2025
 title: Import business data with Azure blob import
 description: Learn how to import business data into Viva Insights through an Azure blob import.
 author: zachminers
@@ -19,7 +19,7 @@ audience: Admin
 
 Uploading business data into Viva Insights helps you understand how Copilot usage influences the business outcomes that matter most to your organization. Business outcomes might include productivity metrics at both the task and job levels, such as the number of emails sent by your sales team or the number of closed deals. Please refer to our separate documentation on the [Copilot Business Outcome (Copilot Business Impact) report](..//analyst/templates/copilot-business-impact.md) to learn more. 
  
-You can upload business data in the Microsoft Viva Insights’ advanced insights app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor setup. 
+You can upload business data in the Viva Insights web app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor setup. 
 
 This article covers the second option, Azure blob import. 
 
@@ -151,7 +151,7 @@ Next, you’ll need to create a blob SAS URL or authorize **Workplace Analytics*
 
 Business data likely has different data sources, and might update on different schedules. Customer satisfaction and sales activity metrics, for example, might have different source systems and source admins. You should set up a separate blob connection for each of these, which Viva Insights refers to as "datasets."
 
-1. Start the import from one of two places in the advanced insights app: the **Data hub** page; or **Business data** page under **Platform Setup**. 
+1. Start the import from one of two places in the Viva Insights web app: the **Data hub** page; or **Business data** page under **Platform Setup**. 
 
     * From **Data hub**: 
         1. In the right panel, under **Business data sources**, select **Azure Blob import**.  
@@ -187,7 +187,7 @@ Business data likely has different data sources, and might update on different s
             * Enter "double" if your data values include decimal points
 
     >[!Note]
-    >You'll need to upload numeric business outcome data to be used in any of the reports in advanced insights.
+    >You'll need to upload numeric business outcome data to be used in any of the reports in advanced analysis.
 
     Here's a sample metadata file: 
 
@@ -260,7 +260,7 @@ Structure the data in this way:
 
 * Add a column for each business outcome metric you would like to analyze.  
 
-* You'll need to upload numeric business outcome data to be used in any of the reports in advanced insights.
+* You'll need to upload numeric business outcome data to be used in any of the reports in advanced analysis.
 
 >[!Note]
 >Any files that are dropped prior to the connection creation and mapping upload will not be picked up by Viva Insights. Therefore, make sure you establish the connection first before you drop the file.

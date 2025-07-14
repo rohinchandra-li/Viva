@@ -1,5 +1,5 @@
 ---
-ms.date: 05/07/2024
+ms.date: 06/23/2025
 title: Customize Viva Insights privacy settings
 description: Learn how to customize  Viva Insights privacy settings in the advanced insights app
 author: zachminers
@@ -28,7 +28,7 @@ Partitions are analyst workspaces that include only certain employee data and at
 
 Once you turn on partitions, you can’t turn them off without contacting us. 
 
-:::image type="content" source="../images/admin-partitions-turn-on.png" alt-text="Screenshot that shows the option to turn on partitions in privacy settings." lightbox="../images/admin-partitions-turn-on.png":::
+:::image type="content" source="../images/privacy-settings-one-insights.png" alt-text="Screenshot that shows the option to turn on partitions in privacy settings." lightbox="../images/privacy-settings-one-insights.png":::
 
 [Learn more about partitions and how to set them up](../admin/partitions.md).
 
@@ -44,7 +44,7 @@ To reclassify domains, go to the **Reclassify external domains** section. From t
 
 ## Minimum group size
 
-Set the minimum group size, which is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a “group.” The minimum group size applies to data visualizations in advanced insights Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams. You'll need to set this number to at least five.
+Set the minimum group size, which is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a “group.” The minimum group size applies to data visualizations in advanced analysis Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams. You'll need to set this number to at least five.
 
 To learn how team and group size differ, refer to [What’s the difference between minimum team size and minimum group size?](manager-settings.md#whats-the-difference-between-minimum-team-size-and-minimum-group-size).
 
@@ -61,12 +61,9 @@ Prevent data associated with people in sensitive domains from showing in analyst
 >[!Important]
 >Changes to these settings take effect after the next data refresh, which might take up to one week. 
 
-
-
-
 ## End-user opt-out
 
-Users can always [opt out of personal insights](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). In addition to this opt-out feature, we also built the **End-user opt-out** control. With this control, you let users choose whether their metrics—which are always de-identified—appear in [person query](../analyst/person-query-overview.md) results. Analysts run person queries through the advanced insights app. When users opt out, future person queries and those that refresh each week are affected. Opt-out doesn’t apply to aggregated insights (like organization insights) and query results from collaboration events (like meetings). 
+Users can always [opt out of personal insights](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). In addition to this opt-out feature, we also built the **End-user opt-out** control. With this control, you let users choose whether their metrics—which are always de-identified—appear in [person query](../analyst/person-query-overview.md) results. Analysts run person queries through the Viva Insights web app. When users opt out, future person queries and those that refresh each week are affected. Opt-out doesn’t apply to aggregated insights (like organization insights) and query results from collaboration events (like meetings). 
 
 Users can find opt-out settings in their Viva Insights app in Teams or on the web under **Settings > Privacy**. After you turn on the **End-user opt-out** control, users who already opted out of Viva Insights through their app in Teams or on the web are automatically opted out of person query data. Settings take effect after one day. Users can opt back in to Viva Insights whenever they want and they’ll see their previously saved settings. 
 
