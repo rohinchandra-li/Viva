@@ -40,7 +40,7 @@ A Viva Engage administrator can enable the information bar in the Admin center:
 
 2) The **Information barrier** toggle is disabled by default. When you enable the toggle, the page shows a list of the information barrier segments tied to your network. Any selected segments see the warnings associated with a policy.
 
-    ![Admin panel for enabling information barriers for a network](../../media/info-barrier-admin-settings.png)
+    ![Admin panel for enabling information barriers for a network](/viva/media/engage/admin/info-barrier-admin-settings.png)
 
 3) Select **Save**. The information bars appear for the selected segments.
 
