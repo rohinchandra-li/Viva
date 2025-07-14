@@ -21,7 +21,7 @@ search.appverid:
 
 # Enable advanced moderation from the admin center
 
-Verified admins, network admins, and corporate communicators with Advanced Moderation permissions can set custom themes to moderate and monitor conversations across the Viva Engage network. You can use theme moderation to automatically mute and report conversations. Admins and corporate communicators can quickly review conversations that match any given theme within the advanced moderation dashboard.
+Verified admins, network admins, and corporate communicators with Advanced Moderation permissions can set custom themes to moderate and monitor conversations across the Viva Engage network. You can use theme moderation to automatically mute and report conversations. Auto-mute is an optional admin feature. Admins and corporate communicators can quickly review conversations that match any given theme within the advanced moderation dashboard.
 
 Theme moderation is built on the [Viva Engage **AI Summarization** service](/viva/engage/engage-ai-summarization). This feature gives Viva Engage users and admins access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/ai/responsible-ai).
 
