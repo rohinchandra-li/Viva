@@ -30,7 +30,7 @@ Viva Engage supports a Publisher information bar for users that belong to an [in
 Ensure you meet the following requirements to apply information bar notifications in your Viva Engage network:
 
 - Microsoft 365 E5 Licenses
-- Information barrier _segments_ and associated Microsoft Purview _policies_ must be in place. The policies are sets of data loss rules that define when engagement between different information barrier segments is allowed or blocked.
+- Information barrier _segments_ and associated Microsoft Purview _policies_ must be in place. The policies are sets of data loss rules to define when engagement between different information barrier segments is allowed or blocked.
 
 ## Admin enablement process
 
