@@ -7,7 +7,7 @@ author: michellehu
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 05/29/2025
+ms.date: 07/11/2025
 ms.topic: get-started
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -30,7 +30,6 @@ To send a Pulse request with full premium experience, you must have a license to
 1. **Viva Suite**: Users with a Viva Suite subscription license have access to all applications that are part of the Viva Suite, including Viva Pulse. To learn more about the Viva apps within the Viva Suite, visit [Employee experience and engagement in Microsoft Viva](https://www.microsoft.com/microsoft-viva).
 2. **Viva Workplace Analytics and Employee Feedback**: Users with a Viva Workplace Analytics and Employee Feedback subscription license have access to Viva Pulse, Viva Insights, and Viva Glint. To learn more about Workplace Analytics and Employee Feedback, visit [Workplace Analytics and Employee Feedback](https://www.microsoft.com/en-us/microsoft-viva/workplace-analytics-and-feedback).
 3. **Viva Pulse Admin-led Trial**: The Viva Pulse Admin-led Trial allows Billing Admins to assign 25 users within their tenant to try Viva Pulse for 30 days. During the 30 days, users can use the full functionality of Viva Pulse. Please contact your field seller or account executive to set up your own trial.
-4. **Microsoft 365 Copilot**: Users with a Microsoft 365 Copilot subscription license have access to the full functionality of Viva Pulse. If you visit the [Viva Pulse homepage](https://pulse.cloud.microsoft) and have any trouble or see the No Access error, retry in a few minutes. If you continue to face problems with loading the Viva Pulse homepage, reach out to your account team or Microsoft support team.
 
 > [!IMPORTANT]
 > A user must have an active license to Microsoft Forms to create and send a Pulse request. A user does not need a license to respond to a Pulse request.

@@ -55,7 +55,7 @@ Viva Engage also has the following requirements:
 
 The last requirement involves correct user provisioning.
 
-- Ensure that the same B2B user account and email address that you use in the main Viva Engage network gets provisioned in the new workforce tenant network you create in Microsoft Entra.
+- The B2B user account and email address of your main Viva Engage network gets provisioned in the new workforce tenant network you create in Microsoft Entra.
 
 ## Set up a modern external network
 
@@ -64,13 +64,13 @@ Take the following steps to perform a modern external network configuration. Com
 ### Set up a new Microsoft Entra workforce tenant
 
 > [!NOTE]
-> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) for the information and steps to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network.
+> Consult the Microsoft Entra documentation [QuickStart - Access and create new tenant](/entra/fundamentals/create-new-tenant#create-a-new-tenant-for-your-organization) for information and steps to set up your [new workforce tenant](/entra/external-id/tenant-configurations#workforce-tenants) for the modern external network. Ensure that the new tenant's **Country/Region** setting matches the Home tenant's **Country/Region** value. For example, if the tenant that hosts the Engage Home network is in the United States, the new tenant also must be hosted in the United States. If the **Country/Region** value doesn't match, the new Engage network won't link to the Home network.
 
 After you create the tenant, copy the new Microsoft Entra Tenant ID to a safe location for later use.
 
 ### Assign the required license and email address to the tenant admin
 
-The new tenant automatically embeds the creating user as a B2B Guest user and assigns them the Global Administrator role and privileges.
+The new tenant automatically embeds the creating user as a B2B Guest user, and assigns them the Global Administrator role and privileges.
 
 1. Use the Microsoft Entra admin center to assign the correct license to the B2B Guest user. You assign a Microsoft 365 E5 license to the Global Administrator of the new tenant. Doing so enables the Global Administrator to sign into Viva Engage as the Network Admin.
 

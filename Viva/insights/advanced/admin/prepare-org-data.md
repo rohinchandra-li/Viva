@@ -1,5 +1,5 @@
 ---
-ms.date: 06/30/2025
+ms.date: 7/8/2025
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -20,6 +20,8 @@ To learn about organizational data in general, find out which data Microsoft Ent
 
 >[!Important]
 > You can use **both** Entra and data file uploads simultaneously if you enable "parallel" data ingestion. Then later, if you decide to stop using Entra for certain attributes, you can revert back to using only manual data files. [Learn more](./entra-plus-csv-upload.md).
+
+> [!VIDEO c51721cc-0400-4b36-9e49-69c8e801c465]
 
 ## Prepare organizational data
 
@@ -113,6 +115,8 @@ After you get this data, you'll need to structure it for successful processing a
 ### Step 4 - Structure the organizational data
 
 After you get your exported data, structure it into the correct format.
+
+> [!VIDEO d5ed2fa9-3806-4681-823f-e112d11d5aa5]
 
 #### Add required, reserved optional, and custom attributes
 
