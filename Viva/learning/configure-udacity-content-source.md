@@ -18,7 +18,7 @@ description: Learn how to configure Udacity as a learning content source for Mic
 
 # Configure Udacity as a content source for Microsoft Viva Learning
 
-Eliminate your talent gaps in digital technologies like data science, ML, cloud, cybersecurity, and more. Create job ready talent to accelerate your most critical initiatives, unlocking innovation that fuels growth. [Learn more about Udacity](https://www.udacity.com/) and [see the full catalog](https://enterprise.udacity.com/udacity-catalog).
+Eliminate your talent gaps in digital technologies like data science, ML, cloud, cybersecurity, and more. Create job ready talent to accelerate your most critical initiatives, unlocking innovation that fuels growth. [Learn more about Udacity](https://www.udacity.com/) and [see the full catalog](https://www.udacity.com/catalog).
 
 This article shows you how to configure Udacity as a third-party learning content source for Microsoft Viva Learning. You need an active Udacity license and a Microsoft Viva Suite or Viva Learning license to add Udacity as a content source for your organization.
 

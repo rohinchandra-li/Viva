@@ -307,7 +307,7 @@ Use `DefaultLookbackWindowDays` to specify the lookback window for cases where t
 
 ##### Deploy
 
-To programmatically deploy the pipeline, here’s what you need to do. For more detailed steps, refer to the [deployment API documentation](/rest/api/resources/deployments/create-or-update).
+To programmatically deploy the pipeline, here’s what you need to do. For more detailed steps, refer to the [deployment API documentation](/azure/azure-resource-manager/templates/deploy-rest).
 
 1.	Make sure you have a resource group to be used for the deployment. This group can be the same resource group you created in [Prerequisites](#prerequisites), step 2a.
 

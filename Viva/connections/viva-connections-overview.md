@@ -122,7 +122,7 @@ The dashboard experience has been designed to be consistent across mobile platfo
 |**Element**  |**Mobile Experience** (Smartphone & Tablet) |**Desktop Experience** (Desktop & Web)  |
 |---------|---------|---------|
 |Dashboard  |     Displays as the default tab in the Connections app in Teams.    | It's prominently displayed in the desktop app and can be added to your SharePoint sites [as a web part](use-dashboard-web-part-on-home-site.md).   |
-|Dashboard layout   | Fixed in portrait mode. Card sizes can be medium (which shows two cards on one row) or large (which shows one card on a row). Users can [reorder, show, or hide the cards](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) on their dashboard (These settings won't carry over to their desktop or tablet experience).       |     Can be portrait or landscape with varying numbers of cards on each row depending on whether the web part is used in a one, two, or three column page section layout.     |
+|Dashboard layout   | Fixed in portrait mode. Card sizes can be medium (which shows two cards on one row) or large (which shows one card on a row). Users can [reorder, show, or hide the cards](https://support.microsoft.com/topic/use-a-screen-reader-to-access-and-customize-viva-connections-on-android-and-ios-c4f573dd-cca0-41bd-a409-bc421bf39f32) on their dashboard (These settings won't carry over to their desktop or tablet experience).       |     Can be portrait or landscape with varying numbers of cards on each row depending on whether the web part is used in a one, two, or three column page section layout.     |
 |Card UI     |  Native       |    HTML based     |
 |Card order     |     Same as in Desktop    |  Same as in Mobile       |
 |Card reflow    |   Same as in Desktop      |   Same as in Mobile      |
@@ -216,7 +216,7 @@ The experience in the Connections mobile app is anchored around three key concep
 
 :::image type="content" source="../media/connections/viva-connections-overview/mobile-dashboard.png" alt-text="Screenshot showing the dashboard tab on the Connections mobile app." lightbox="../media/connections/viva-connections-overview/mobile-dashboard.png":::
 
-For more detailed information, see the article on [Connections on mobile devices](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2).
+For more detailed information, see the article on [Connections on mobile devices](https://support.microsoft.com/topic/use-a-screen-reader-to-access-and-customize-viva-connections-on-android-and-ios-c4f573dd-cca0-41bd-a409-bc421bf39f32).
 
 ## Curated experiences
 

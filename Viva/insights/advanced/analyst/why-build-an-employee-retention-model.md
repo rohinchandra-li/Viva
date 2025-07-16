@@ -73,13 +73,13 @@ Advance to the next chapter to learn more details about an Employee Retention Mo
 
 4: <https://builtin.com/recruiting/cost-of-turnover>
 
-5: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
+5: <https://www.simplybenefits.ca/post/employee-retention-what-is-the-true-cost-of-losing-an-employee>
 
 6: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
 
 7: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
 
-8: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
+8: <https://www.simplybenefits.ca/post/employee-retention-what-is-the-true-cost-of-losing-an-employee>
 
 9: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
 
@@ -87,8 +87,8 @@ Advance to the next chapter to learn more details about an Employee Retention Mo
 [^2]: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
 [^3]: <https://www.gartner.com/en/human-resources/glossary/attrition>
 [^4]: <https://builtin.com/recruiting/cost-of-turnover>
-[^5]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
+[^5]: <https://www.simplybenefits.ca/post/employee-retention-what-is-the-true-cost-of-losing-an-employee>
 [^6]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun/>
 [^7]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
-[^8]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
+[^8]: <https://www.simplybenefits.ca/post/employee-retention-what-is-the-true-cost-of-losing-an-employee>
 [^9]: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>

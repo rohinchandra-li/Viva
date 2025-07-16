@@ -219,7 +219,7 @@ Planning for change and helping users adopt new resources are different for ever
 
 ### Training considerations
 
-- Use training to help raise awareness about how to use Connections on [desktop](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2) devices.
+- Use training to help raise awareness about how to use Connections on [desktop](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52) and [mobile](https://support.microsoft.com/topic/use-a-screen-reader-to-access-and-customize-viva-connections-on-android-and-ios-c4f573dd-cca0-41bd-a409-bc421bf39f32) devices.
 
 - Showcase different ways to connect and engage with cards on the dashboard.
 

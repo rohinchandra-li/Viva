@@ -37,7 +37,7 @@ The Connections dashboard can be edited from within your Connections experience.
 > - You're asked to select your primary audience to generate a set of default dashboard cards for when setting up your experience for the first time.
 > - Operators or members should limit the number of dashboard cards to about 20 for the best viewing experience.
 > - Operator or member permissions are required to edit the Connections dashboard.
-> - Users are able to customize their dashboard in Connections on [desktop](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) by reordering, hiding, and showing cards. These changes only affect the experience for the user.
+> - Users are able to customize their dashboard in Connections on [desktop](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/topic/use-a-screen-reader-to-access-and-customize-viva-connections-on-android-and-ios-c4f573dd-cca0-41bd-a409-bc421bf39f32) by reordering, hiding, and showing cards. These changes only affect the experience for the user.
 
 1. From within your Connections experience, select **Edit** in the dashboard section.
 
@@ -82,7 +82,7 @@ The dashboard details contain settings for your dashboard, page versioning, and 
     >
     > Disabling user customization resets all user dashboard views to what the organization created. This includes removing any dashboard cards the user added to their dashboard.
     >
-    > For more information how end users can customize their dashboard, see the relevant sections in the [dashboard](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_mobile_customize_dashboard) articles.
+    > For more information how end users can customize their dashboard, see the relevant sections in the [dashboard](https://support.microsoft.com/office/3da30f39-684a-4bde-bb81-2e1407d59b52#bkmk_desktop_customize_dashboard) and [mobile](https://support.microsoft.com/topic/use-a-screen-reader-to-access-and-customize-viva-connections-on-android-and-ios-c4f573dd-cca0-41bd-a409-bc421bf39f32) articles.
 
     :::image type="content" source="../media/connections/create-dashboard/dashboard-details-pane.png" alt-text="Screenshot of the dashboard details pane with numbered callout corresponding to steps three through five." lightbox="../media/connections/create-dashboard/dashboard-details-pane.png":::
 

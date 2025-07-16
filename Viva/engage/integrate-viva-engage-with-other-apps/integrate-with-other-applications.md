@@ -55,7 +55,7 @@ The [Viva Engage connector](/connectors/yammer/) hosts social plug-ins to extend
 
 ## Viva Engage for Dynamics CRM
 
-Integrate Viva Engage with Microsoft Dynamics CRM Online to add a social layer to your existing CRM tool and jumpstart collaboration. For more information, see [Configure Microsoft Dynamics CRM Online With Viva Engage](https://go.microsoft.com/fwlink/?linkid=868110).
+Integrate Viva Engage with Microsoft Dynamics CRM Online to add a social layer to your existing CRM tool and jumpstart collaboration. For more information, see [Configure Microsoft Dynamics CRM Online With Viva Engage](/viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications).
   
 ## Viva Engage for Salesforce.com
 
