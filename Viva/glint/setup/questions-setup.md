@@ -21,8 +21,12 @@ ms.date: 06/20/2025
 
 As a Microsoft Viva Glint Administrator, use the Questions section to manage survey items, modify introduction and thank you messages, and add optional features like targeting, display logic, and sections. To set up survey items, use information from your [Holistic Vision and Strategy Discovery Workbook](customize-program.md#use-the-holistic-listening-vision-and-strategy-discovery-workbook) and your [Deployment guide survey tab](/viva/glint/introduction-viva-glint#deploy-viva-glint-and-launch-a-survey) as a guide.
 
+
 > [!NOTE]
 > Not all items in the Viva Glint Question Library are posed in question format. Library items also include statements to rate on a given scale. For this reason, the term "item" on the Viva Glint platform and in Learn and training guidance refers to any content in the Question Library. The term "item" includes questions and statements.
+
+> [!WARNING]
+> This documentation applies only to Engagement survey programs. If you are creating a 360 feedback program, please refer to the 360-specific documentation [here](https://learn.microsoft.com/en-us/viva/glint/setup/360-add-edit-cycle-questions). Some features described below, such as editing the survey introduction message, are not available for 360 feedback programs.
 
 ## Edit the survey introduction message
 
